@@ -15,51 +15,67 @@ interface ArtPiece {
 const sampleArtPieces: ArtPiece[] = [
   {
     id: '1',
-    url: 'https://drive.google.com/uc?export=view&id=1HmpnK7pWPOdSCnXwKu3GRVsZ9kjl1sUZ',
-    name: 'Abstract Composition',
-    medium: 'Procreate',
+    url: '/images/137C639D-073C-4ADA-B4BD-0EA40067818A_1_102_o.jpeg',
+    name: 'Artwork 1',
+    medium: 'Digital Art',
     year: '2024',
     category: 'illustration',
   },
   {
     id: '2',
-    url: 'https://images.unsplash.com/photo-1549887534-1541e9326642?w=600',
-    name: 'Digital Painting',
-    medium: 'Procreate',
+    url: '/images/31716875-19CE-4A63-8AF8-566911951BEF_1_102_o.jpeg',
+    name: 'Artwork 2',
+    medium: 'Digital Art',
     year: '2024',
     category: 'illustration',
   },
   {
     id: '3',
-    url: 'https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=900',
-    name: '3D Character Study',
-    medium: 'Maya',
+    url: '/images/33EF8F7A-0B0B-4910-99D2-E20110B4C676_1_102_o.jpeg',
+    name: 'Artwork 3',
+    medium: 'Digital Art',
     year: '2024',
-    category: '3d',
+    category: 'illustration',
   },
   {
     id: '4',
-    url: 'https://images.unsplash.com/photo-1561214115-f2f134cc4912?w=700',
-    name: 'Character Design',
-    medium: 'Procreate',
+    url: '/images/625ABFFE-D2B0-470B-ADA9-2D6D9C7C57E3_1_102_o.jpeg',
+    name: 'Artwork 4',
+    medium: 'Digital Art',
     year: '2024',
     category: 'illustration',
   },
   {
     id: '5',
-    url: 'https://images.unsplash.com/photo-1547826039-bfc35e0f1ea8?w=800',
-    name: 'Brand Identity',
-    medium: 'Figma',
+    url: '/images/8E5118F7-9B6A-4460-B0BD-456CFCA2C193_1_102_o.jpeg',
+    name: 'Artwork 5',
+    medium: 'Digital Art',
     year: '2024',
-    category: 'brand',
+    category: 'illustration',
   },
   {
     id: '6',
-    url: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600',
-    name: 'Motion Graphics',
-    medium: 'After Effects',
+    url: '/images/974676F1-7D04-447E-BB41-7EBEBF5C78A6_1_102_o.jpeg',
+    name: 'Artwork 6',
+    medium: 'Digital Art',
     year: '2024',
-    category: 'motion',
+    category: 'illustration',
+  },
+  {
+    id: '7',
+    url: '/images/D85DDACE-B2B5-46F0-A8FF-D83D3E83BF4D_1_102_o.jpeg',
+    name: 'Artwork 7',
+    medium: 'Digital Art',
+    year: '2024',
+    category: 'illustration',
+  },
+  {
+    id: '8',
+    url: '/images/FDEB8EA8-3DE0-47CC-B155-A235F7020EDF_1_102_o.jpeg',
+    name: 'Artwork 8',
+    medium: 'Digital Art',
+    year: '2024',
+    category: 'illustration',
   },
 ];
 
@@ -75,14 +91,14 @@ export function Gallery() {
   const [activeFilter, setActiveFilter] = useState('all');
   const [selectedImage, setSelectedImage] = useState<ArtPiece | null>(null);
 
-  const filteredArtPieces = activeFilter === 'all'
-    ? sampleArtPieces
-    : sampleArtPieces.filter((art) => art.category === activeFilter);
+  const filteredArtPieces =
+    activeFilter === 'all'
+      ? sampleArtPieces
+      : sampleArtPieces.filter((art) => art.category === activeFilter);
 
   return (
     <div className="min-h-screen bg-[#0F0F13] pt-24 pb-20 px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -96,7 +112,6 @@ export function Gallery() {
           </p>
         </motion.div>
 
-        {/* Filters */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -118,7 +133,6 @@ export function Gallery() {
           ))}
         </motion.div>
 
-        {/* Gallery Grid */}
         {filteredArtPieces.length > 0 ? (
           <motion.div
             initial={{ opacity: 0 }}
@@ -143,8 +157,7 @@ export function Gallery() {
                       alt={artPiece.name}
                       className="w-full h-auto object-cover"
                     />
-                    
-                    {/* Overlay */}
+
                     <div className="absolute inset-0 bg-[#0F0F13]/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
                       <h3 className="text-[#F5F5F5] text-base font-medium mb-1">
                         {artPiece.name}
@@ -168,7 +181,6 @@ export function Gallery() {
         )}
       </div>
 
-      {/* Lightbox Modal */}
       <AnimatePresence>
         {selectedImage && (
           <motion.div
@@ -185,7 +197,6 @@ export function Gallery() {
               className="relative max-w-5xl max-h-[90vh] w-full"
               onClick={(e) => e.stopPropagation()}
             >
-              {/* Close button */}
               <button
                 onClick={() => setSelectedImage(null)}
                 className="absolute -top-12 right-0 text-[#F5F5F5] hover:text-[#6C3FC8] transition-colors"
@@ -193,14 +204,12 @@ export function Gallery() {
                 <X size={24} />
               </button>
 
-              {/* Image */}
               <img
                 src={selectedImage.url}
                 alt={selectedImage.name}
                 className="w-full h-full object-contain"
               />
 
-              {/* Info */}
               <div className="mt-6 text-center">
                 <h3 className="text-[#F5F5F5] text-xl font-medium mb-2">
                   {selectedImage.name}
