@@ -7,6 +7,7 @@ import { ProjectCard } from '../components/ProjectCard';
 const filters = [
   { label: 'All', value: 'all' },
   { label: 'UX/UI Design', value: 'ux-ui' },
+  { label: 'Design', value: 'design' },
   { label: 'Animation', value: 'animation' },
 ];
 
@@ -18,17 +19,19 @@ export function Projects() {
   useEffect(() => {
     if (filterParam) {
       setActiveFilter(filterParam);
+    } else {
+      setActiveFilter('all');
     }
   }, [filterParam]);
 
-  const filteredProjects = activeFilter === 'all'
-    ? projects
-    : projects.filter(p => p.category === activeFilter);
+  const filteredProjects =
+    activeFilter === 'all'
+      ? projects
+      : projects.filter((p) => p.category === activeFilter);
 
   return (
     <div className="min-h-screen bg-[#0F0F13] pt-24 pb-20 px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -39,12 +42,11 @@ export function Projects() {
             Selected Work
           </h1>
           <p className="text-base text-[#999] max-w-2xl">
-            A collection of UI/UX design projects and animation work exploring
-            thoughtful interactions and visual storytelling.
+            A collection of UX/UI design, illustration, and animation projects exploring
+            thoughtful interaction, visual storytelling, and motion.
           </p>
         </motion.div>
 
-        {/* Filters */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -66,7 +68,6 @@ export function Projects() {
           ))}
         </motion.div>
 
-        {/* Projects Grid */}
         <div className="grid sm:grid-cols-2 gap-6">
           {filteredProjects.map((project, index) => (
             <motion.div

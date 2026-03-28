@@ -4,11 +4,29 @@ import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 
 export function About() {
   const skills = [
-    { category: 'Design Tools', items: ['Figma', 'Adobe XD', 'Sketch', 'Photoshop', 'Illustrator'] },
-    { category: 'Animation', items: ['After Effects', 'Cinema 4D', 'Maya', 'Unity', 'Blender'] },
-    { category: 'Illustration', items: ['Procreate', 'Illustrator', 'Photoshop', 'Fresco'] },
-    { category: 'Development', items: ['HTML/CSS', 'JavaScript', 'React', 'Figma Plugins'] },
-  ];
+  {
+    category: 'Design Tools',
+    items: ['Figma', 'Adobe Photoshop', 'Adobe After Effects', 'Procreate', 'Canva'],
+  },
+  {
+    category: 'Animation & 3D',
+    items: ['Maya', 'Unity', '3D Modelling & Rigging', 'Rendering', 'Motion Graphics'],
+  },
+  {
+    category: 'Development',
+    items: ['HTML', 'CSS', 'Shopify', 'Responsive Layouts'],
+  },
+  {
+    category: 'Other',
+    items: [
+      'User Research',
+      'Wireframing & Prototyping',
+      'Brand Identity Systems',
+      'Visual Storytelling',
+      'Color Theory & Typography',
+    ],
+  },
+];
 
   return (
     <div className="min-h-screen bg-[#0F0F13] pt-24 pb-20 px-6 lg:px-8">
@@ -37,24 +55,24 @@ export function About() {
             className="lg:col-span-1"
           >
             <div className="aspect-square overflow-hidden bg-[#1A1A2A] mb-6">
-              <ImageWithFallback
-                src="https://images.unsplash.com/photo-1728281144091-b743062a9bf0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNpZ25lciUyMHdvcmtzcGFjZSUyMGNyZWF0aXZlfGVufDF8fHx8MTc3NDM1MDc2MHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                alt="Workspace"
-                className="w-full h-full object-cover"
-              />
-            </div>
+  <ImageWithFallback
+    src="/images/aboutus.jpeg"
+    alt="About"
+    className="w-full h-full object-cover"
+  />
+</div>
             
             {/* Social Links */}
             <div className="flex gap-3">
               <a
-                href="mailto:hello@shriyapothukuchi.com"
+                href="mailto:shriyapothukuchi3@gmail.com"
                 className="p-3 border border-[#2a2a35] text-[#999] hover:border-[#6C3FC8] hover:text-[#6C3FC8] transition-colors"
                 aria-label="Email"
               >
                 <Mail size={18} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/shriya-pothukuchi-751041253/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 border border-[#2a2a35] text-[#999] hover:border-[#6C3FC8] hover:text-[#6C3FC8] transition-colors"
@@ -63,7 +81,7 @@ export function About() {
                 <Linkedin size={18} />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/shriyapothukuchi3-beep"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 border border-[#2a2a35] text-[#999] hover:border-[#6C3FC8] hover:text-[#6C3FC8] transition-colors"
@@ -149,7 +167,7 @@ Whether I'm building a sustainable fashion app, crafting a brand identity inspir
             Feel free to reach out if you'd like to collaborate.
           </p>
           <a
-            href="mailto:hello@shriyapothukuchi.com"
+            href="mailto:shriyapothukuchi3@gmail.com"
             className="inline-flex items-center gap-2 px-6 py-3 bg-[#6C3FC8] text-[#F5F5F5] text-sm font-medium hover:bg-[#7d4fd9] transition-colors"
           >
             <Mail size={16} />

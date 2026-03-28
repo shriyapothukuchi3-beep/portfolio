@@ -1,207 +1,182 @@
 export interface Project {
   id: string;
   title: string;
-  category: 'ux-ui' | 'animation';
+  category: 'ux-ui' | 'design' | 'animation';
   description: string;
   image: string;
   tags: string[];
   year: string;
-  client?: string;
   overview: string;
   challenge: string;
   solution: string;
+  projectLink?: string;
   videoUrl?: string;
 }
 
 export const projects: Project[] = [
   {
-    id: 'kinetic-typography-animation',
-    title: 'Kinetic Typography Animation',
+    id: 'brew-and-blend',
+    title: 'Brew & Blend — Coffee Shop Website',
+    category: 'ux-ui',
+    description:
+      'A warm and inviting e-commerce website for an artisanal coffee shop, guiding users from discovery to purchase.',
+    image:
+      '/images/Brewandblend.png',
+    tags: ['UX/UI Design', 'E-commerce', 'Web Design', 'Figma'],
+    year: '2024',
+    overview:
+      "Brew & Blend is a warm and inviting e-commerce website for an artisanal coffee shop. The site guides visitors through a curated coffee experience — from discovering signature blends and learning about individual drinks, to shopping for beans and getting in touch. With a rich brown and terracotta color palette, flowing wave motifs, and earthy photography, the design reflects the brand's core philosophy: coffee as a ritual, not just a routine.",
+    challenge:
+      "Design a multi-page coffee shop website that balances product education with e-commerce functionality — helping users who don't yet know their preferred roast discover the right blend, while also serving returning customers who want to browse and buy quickly. The site needed to feel warm and artisanal without sacrificing clarity or usability.",
+    solution:
+      'A fully navigable multi-page site where users move from discovery to purchase without friction. Featured blends come with roast levels and tasting notes, a Coffee Finder Quiz matches undecided users to their perfect cup, and individual drink spotlights educate before they commit. A sign-up incentive at checkout converts casual visitors into returning customers.',
+    projectLink:
+      'https://www.figma.com/proto/g0jC4V3ucp36hXXUv5cpwp/coffee?node-id=2-15&page-id=0%3A1&starting-point-node-id=2%3A11&t=l1OnZQaLQxSx0rYI-1',
+  },
+  {
+    id: 'meet-up-social-app',
+    title: 'Meet Up? — Social Meetup App',
+    category: 'ux-ui',
+    description:
+      'A community-driven mobile app designed to help people connect through shared interests and real-world events.',
+       image:
+      '/images/Meetup.png',
+      tags: ['UX/UI Design', 'Mobile App', 'Community', 'Figma'],
+    year: '2024',
+    overview:
+      "Meet Up? is a community-driven mobile app designed to help people connect through shared interests and real-world events. Users can discover what's happening today, join groups like anime clubs or casual lunches, attend meetings both in-person and virtually, and track their social growth over time. With a playful illustrated aesthetic and a warm, encouraging tone, the app makes stepping out of your comfort zone feel approachable and fun.",
+    challenge:
+      'Many people — especially college students and young adults — want to build meaningful social connections but struggle with the awkward first step of putting themselves out there. The challenge was to design a social app that lowers the barrier to meeting new people, supports both in-person and virtual engagement, and keeps users motivated to stay socially active without feeling pressured.',
+    solution:
+      "A home screen that makes showing up easy — today's events and online friends are front and center, so there's always a reason to act. Joining an event takes just a few taps: pick in-person or virtual, see who's coming, confirm the location, and go. A weekly social summary celebrates progress and gently nudges users to keep engaging, turning a daunting habit into a rewarding one.",
+    projectLink:
+      'https://www.figma.com/proto/ktb0fSYTvjDRVppMyANplE/Interactive-design?node-id=18-156&p=f&viewport=40%2C332%2C0.14&t=ofDvv5RijmfbS8Hh-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=18%3A156&page-id=0%3A1',
+  },
+  {
+    id: 'rentique',
+    title: 'Rentique — Circular Fashion Rental App',
+    category: 'ux-ui',
+    description:
+      'An IoT-driven sustainable fashion rental app that merges style, technology, and environmental responsibility.',
+    image:
+      '/images/Rentique.png',
+      tags: ['UX/UI Design', 'Sustainable Fashion', 'IoT', 'Figma'],
+    year: '2024',
+    overview:
+      "Rentique is an IoT-driven sustainable fashion rental app that merges style, technology, and environmental responsibility into one seamless experience. Using RFID-tagged garments and smart racks, every rental becomes fully traceable — from cleaning history and wear count to real-time sustainability impact. Designed for younger consumers who want to look good without the guilt, Rentique makes circular fashion feel premium, personal, and effortless.",
+    challenge:
+      "Current rental services are manual, opaque, and trust-deficient — users have no way of knowing how clean a garment really is, how many times it's been worn, or what environmental difference their choice actually makes. Sustainable fashion exists, but it won't be chosen unless it feels like an upgrade, not a compromise.",
+    solution:
+      'RFID tags give every garment a digital passport — tracking usage, cleanliness, and location automatically. IoT smart racks light up to guide users directly to their reserved item, and QR-based returns trigger the cleaning workflow instantly. The ECO Dashboard translates every rental into real impact metrics — CO₂ saved, textile waste prevented, tier progression — making sustainability visible and rewarding. The result: renting feels smarter than buying.',
+    projectLink:
+      'https://www.figma.com/proto/LZ9fBZD7E9q4abMLuCjJpn/Untitled?node-id=1-3&p=f&viewport=25%2C214%2C0.2&t=GM5VvFUB7Ia7Q592-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A3&page-id=0%3A1',
+  },
+  {
+    id: 'convergence',
+    title: 'Convergence — Manga-Style Illustration Collage',
+    category: 'design',
+    description:
+      'A hand-drawn black and white illustration collage composed of multiple manga-inspired character studies and scenes.',
+    image: '/images/Final.png',
+    tags: ['Illustration', 'Manga', 'Collage', 'Black & White'],
+    year: '2024',
+    overview:
+      'A hand-drawn black and white illustration collage composed of multiple manga-inspired character studies and scenes, unified through bold compositional layering. The piece weaves together expressive close-ups, full figures, dragons, celestial imagery, and floral motifs into a single cohesive artwork that feels simultaneously fragmented and intentional.',
+    challenge:
+      'Create a visually complex multi-character composition that draws from manga aesthetics without feeling like a random assembly of parts — each element needed to hold its own while contributing to a unified visual story.',
+    solution:
+      'Composition came before character — early sketches focused purely on overlapping shapes and diagonal tension to find a layout with natural movement. Once the central arrow structure locked in as the anchor, each zone was filled deliberately: tight eye close-ups for emotional pull, varied scales for depth, and a consistent grayscale palette that lets line work do all the talking.',
+  },
+  {
+    id: 'cumbia',
+    title: 'Cumbia — Digital Illustration',
+    category: 'design',
+    description:
+      'A bold digital illustration capturing the energy and motion of traditional Latin dance.',
+    image: '/images/color-final-prototype.png',
+    tags: ['Illustration', 'Digital Art', 'Motion', 'Visual Storytelling'],
+    year: '2024',
+    overview:
+      "A bold digital illustration capturing the energy and motion of traditional Latin dance, rendered through high-contrast neon line work against a deep black background. The piece pairs an elaborately detailed dancer in full skirt motion with a stark flat silhouette, creating a striking visual tension between complexity and simplicity.",
+    challenge:
+      'Translate the raw kinetic energy of live dance into a static image — conveying movement, rhythm, and cultural vibrancy without losing visual clarity or impact.',
+    solution:
+      "Six early explorations tested everything from abstract swirls to flat graphic silhouettes before the final direction locked in. The dense contour lines rippling across the dancer's skirt were inspired directly by the layered, billowing fabric of traditional cumbia costumes — reinterpreted through neon yellow-green and crimson to capture the heat of the dance floor rather than replicate it literally.",
+  },
+  {
+    id: 'derby-car',
+    title: 'Derby Car — 3D Animation',
     category: 'animation',
-    description: 'A dynamic typographic animation piece featuring bold text movements, rhythmic pacing, and expressive motion design.',
-    image: 'https://images.unsplash.com/photo-1721491702267-16cf7e0fb2cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxraW5ldGljJTIwdHlwb2dyYXBoeSUyMG1vdGlvbiUyMGRlc2lnbnxlbnwxfHx8fDE3NzQ0NzcyMTl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    tags: ['Kinetic Typography', 'Motion Graphics', 'Typography', 'Animation'],
-    year: '2026',
-    overview: 'Designed a visually striking kinetic typography piece that brings text to life through expressive movement and creative transitions.',
-    challenge: 'Create engaging text animations that maintain readability while delivering dynamic visual impact and emotional resonance.',
-    solution: 'Choreographed text movements with precise timing, scale variations, and creative entrance/exit effects to create a memorable typographic experience.',
-    videoUrl: 'https://vimeo.com/1177111644',
+    description:
+      'A fully self-produced 3D animated piece built in Autodesk Maya, covering the complete production pipeline.',
+    image:
+      '/images/Derbycar.png',
+    tags: ['3D Animation', 'Maya', 'Modeling', 'Rigging'],
+    year: '2024',
+    overview:
+      'A fully self-produced 3D animated piece built in Autodesk Maya, covering the complete production pipeline from modeling and rigging to final animation. The project demonstrates end-to-end technical skill in bringing a derby car to life through movement.',
+    challenge:
+      'Execute every stage of the 3D production pipeline independently — modeling a believable derby car, building a rig that would allow natural and dynamic movement, and animating it in a way that communicated weight, speed, and personality.',
+    solution:
+      'Built from scratch in Maya, the car was modeled with attention to the battered, characterful aesthetic of derby vehicles, then rigged to support realistic motion. The animation focused on conveying physical weight and momentum — letting the movement itself tell the story rather than relying on environment or effects.',
+    projectLink: 'https://vimeo.com/1067220024?share=copy&fl=sv&fe=ci',
+    videoUrl: 'https://vimeo.com/1067220024?share=copy&fl=sv&fe=ci',
   },
   {
-    id: 'abstract-motion-design',
-    title: 'Abstract Motion Design',
+    id: 'character-walk-cycle',
+    title: 'Character Walk Cycle — 3D Animation',
     category: 'animation',
-    description: 'A mesmerizing abstract animation exploring geometric shapes, fluid transitions, and rhythmic visual patterns.',
-    image: 'https://images.unsplash.com/photo-1759269286316-01bb89cd3d4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMG1vdGlvbiUyMGdyYXBoaWNzJTIwZGVzaWdufGVufDF8fHx8MTc3NDQ3NjkyN3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    tags: ['Motion Design', 'Abstract Animation', 'Visual Art', 'Experimental'],
-    year: '2026',
-    overview: 'Created an experimental motion piece that explores the relationship between form, color, and movement through abstract geometric compositions.',
-    challenge: 'Design an animation that engages viewers through pure visual aesthetics without relying on narrative or literal storytelling.',
-    solution: 'Developed a series of synchronized geometric transformations with carefully choreographed timing, creating a hypnotic visual rhythm that draws the eye.',
-    videoUrl: 'https://vimeo.com/1177111010',
+    description:
+      'A 3D character walk cycle animated in Autodesk Maya, focusing on believable human locomotion.',
+    image:
+      '/images/Walk.png',
+    tags: ['3D Animation', 'Character Animation', 'Maya', 'Walk Cycle'],
+    year: '2024',
+    overview:
+      'A 3D character walk cycle animated in Autodesk Maya, focusing on the fundamentals of believable human locomotion. Working from a pre-built model, the project hones in purely on the craft of animation — translating technical keyframes into natural, fluid movement.',
+    challenge:
+      'A walk cycle is deceptively simple — the smallest timing or weight shift error reads immediately as unnatural. The challenge was to animate a convincing, grounded walk that felt alive rather than mechanical.',
+    solution:
+      'By focusing on weight distribution, hip sway, and follow-through across each step, the animation moves beyond a basic loop into something that feels physically grounded. Every keyframe was tuned to ensure momentum carried naturally from one pose to the next.',
+    projectLink: 'https://vimeo.com/1177111010?share=copy&fl=sv&fe=ci',
+    videoUrl: 'https://vimeo.com/1177111010?share=copy&fl=sv&fe=ci',
   },
   {
-    id: 'creative-animation-showcase',
-    title: 'Creative Animation Showcase',
+    id: 'ball-bounce',
+    title: 'Ball Bounce — 3D Animation',
     category: 'animation',
-    description: 'An innovative animation project featuring dynamic visual effects and experimental motion design techniques.',
-    image: 'https://images.unsplash.com/photo-1764312385768-93b8f47250de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMGFuaW1hdGlvbiUyMHZpc3VhbCUyMGVmZmVjdHN8ZW58MXx8fHwxNzc0NDc2NTAzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    tags: ['Animation', 'Visual Effects', 'Motion Design', 'Creative Direction'],
-    year: '2026',
-    overview: 'Developed an experimental animation piece that pushes the boundaries of motion design through innovative techniques and creative visual storytelling.',
-    challenge: 'Create a visually striking animation that explores new motion design approaches while maintaining smooth playback and professional quality.',
-    solution: 'Implemented cutting-edge animation techniques with custom effects, dynamic camera movements, and experimental transitions to create a unique visual experience.',
-    videoUrl: 'https://vimeo.com/1067221403',
+    description:
+      'A 3D ball bounce animation in Autodesk Maya built around one of the most fundamental animation exercises.',
+    image:
+      '/images/Bouncingball.png',
+    tags: ['3D Animation', 'Maya', 'Timing', 'Squash and Stretch'],
+    year: '2024',
+    overview:
+      'A 3D ball bounce animation in Autodesk Maya, built around one of the most fundamental exercises in animation — using a simple object to demonstrate mastery of the core principles of motion.',
+    challenge:
+      "A bouncing ball is the animator's baseline test. Getting it right means nailing timing, squash and stretch, arc of motion, and the subtle ease-in and ease-out that separates convincing physics from a floating object.",
+    solution:
+      "Animated across a curved ramp environment, the ball's trajectory, speed, and deformation were carefully key framed to sell the illusion of real weight and momentum — proving that the principles of great animation live in the details, not the complexity of the subject.",
+    projectLink: 'https://vimeo.com/1177111644?share=copy&fl=sv&fe=ci',
+    videoUrl: 'https://vimeo.com/1177111644?share=copy&fl=sv&fe=ci',
   },
   {
-    id: 'vimeo-animation-project',
-    title: 'Motion Graphics Showcase',
+    id: 'peg-jump',
+    title: 'Peg Jump — 3D Animation',
     category: 'animation',
-    description: 'A dynamic motion graphics piece featuring vibrant animations and creative visual storytelling.',
-    image: 'https://images.unsplash.com/photo-1636955779321-819753cd1741?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3Rpb24lMjBncmFwaGljcyUyMGFuaW1hdGlvbiUyMGNvbG9yZnVsfGVufDF8fHx8MTc3NDQ3NjQ0NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    tags: ['Motion Graphics', 'Animation', 'After Effects', 'Video Production'],
-    year: '2026',
-    overview: 'Created a captivating motion graphics piece that combines fluid animations, dynamic transitions, and engaging visual effects.',
-    challenge: 'Develop an animation that captures attention while maintaining smooth motion and professional production quality.',
-    solution: 'Crafted seamless transitions with carefully timed animations, vibrant color grading, and polished effects to create a cohesive visual narrative.',
-    videoUrl: 'https://vimeo.com/1067220024',
-  },
-  {
-    id: 'psychedelic-illustration',
-    title: 'Psychedelic Portrait',
-    category: 'ux-ui',
-    description: 'A vibrant psychedelic illustration exploring bold colors, organic patterns, and dynamic silhouettes.',
-    image: 'figma:asset/b8cde57bd8d45fe628a1a105fe085662692994da.png',
-    tags: ['Illustration', 'Graphic Design', 'Digital Art', 'Visual Design'],
-    year: '2026',
-    overview: 'Created a striking psychedelic illustration that combines bold neon colors with flowing organic forms to create a visually captivating composition.',
-    challenge: 'Design an eye-catching piece that balances vibrant colors and complex patterns while maintaining visual clarity and compositional harmony.',
-    solution: 'Used a limited color palette of fluorescent yellow, pink, and red against a black background, with layered wavy patterns creating depth and movement.',
-  },
-  {
-    id: 'comic-collage-art',
-    title: 'Comic Collage Artwork',
-    category: 'ux-ui',
-    description: 'A dynamic black and white collage combining multiple artistic styles and narrative elements in a comic-inspired format.',
-    image: 'figma:asset/2389a472bb42b0596b8576dda8b4070482767331.png',
-    tags: ['Illustration', 'Comic Art', 'Collage', 'Digital Art'],
-    year: '2026',
-    overview: 'Designed a complex visual narrative through a collage of different illustration styles, creating a cohesive story through fragmented imagery.',
-    challenge: 'Combine multiple artistic styles and characters into a unified composition that tells a story while maintaining visual interest and balance.',
-    solution: 'Created a grid-based layout with varying panel sizes, using strong black and white contrast and diverse illustration techniques to create visual rhythm and narrative flow.',
-  },
-  {
-    id: 'interactive-design-prototype',
-    title: 'Interactive Design Prototype',
-    category: 'ux-ui',
-    description: 'An interactive prototype exploring advanced user interactions and seamless navigation patterns.',
-    image: 'https://images.unsplash.com/photo-1663153206192-6d0e4c9570dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbnRlcmFjdGl2ZSUyMGRlc2lnbiUyMHByb3RvdHlwZSUyMG1vYmlsZXxlbnwxfHx8fDE3NzQ0NzYwNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    tags: ['Interactive Design', 'Prototyping', 'UX Research', 'Figma'],
-    year: '2026',
-    overview: 'Developed a high-fidelity interactive prototype demonstrating innovative interaction patterns and user flow optimization.',
-    challenge: 'Design an intuitive interface with complex interactions that feels natural and doesn\'t overwhelm users with too many options.',
-    solution: 'Created a layered interaction model with progressive disclosure, smart defaults, and contextual animations that guide users through the experience seamlessly.',
-  },
-  {
-    id: 'coffee-app-design',
-    title: 'Coffee Ordering App',
-    category: 'ux-ui',
-    description: 'A delightful mobile app design for ordering coffee with customization options and loyalty rewards.',
-    image: 'https://images.unsplash.com/photo-1770368787794-d69d40a3cd4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBhcHAlMjBtb2JpbGUlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzc0NDc2MDE0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    tags: ['Mobile App', 'E-commerce', 'Food & Beverage', 'Figma'],
-    year: '2026',
-    overview: 'Designed an engaging coffee ordering experience that makes it easy for users to customize drinks, track orders, and earn rewards.',
-    challenge: 'Create an intuitive ordering flow that handles complex drink customizations while keeping the interface simple and enjoyable.',
-    solution: 'Implemented a step-by-step customization process with visual feedback, quick reorder options, and an integrated loyalty program with gamification elements.',
-  },
-  {
-    id: 'figma-design-project',
-    title: 'Figma Design Project',
-    category: 'ux-ui',
-    description: 'A comprehensive UX/UI design project showcasing modern design principles and user-centered approach.',
-    image: 'https://images.unsplash.com/photo-1717323454555-f053c31ff4b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBhcHAlMjBkZXNpZ24lMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzc0NDc1OTU5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    tags: ['Figma', 'UX Design', 'UI Design', 'Prototyping'],
-    year: '2026',
-    overview: 'Designed a complete user experience with a focus on intuitive navigation, clean aesthetics, and accessibility standards.',
-    challenge: 'Create a design that balances visual appeal with functionality while ensuring a seamless user journey across different touchpoints.',
-    solution: 'Developed a cohesive design system in Figma with interactive prototypes, comprehensive user flows, and detailed component documentation.',
-  },
-  {
-    id: 'mobile-banking-app',
-    title: 'Mobile Banking App',
-    category: 'ux-ui',
-    description: 'A modern and intuitive mobile banking experience with seamless transactions and financial insights.',
-    image: 'https://images.unsplash.com/photo-1605108222700-0d605d9ebafe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2V8ZW58MXx8fHwxNzc0NDcwMTcyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    tags: ['Mobile', 'Fintech', 'iOS', 'Android'],
-    year: '2025',
-    client: 'FinanceHub',
-    overview: 'Designed a comprehensive mobile banking application that simplifies financial management for users of all ages.',
-    challenge: 'Create an interface that balances security features with ease of use, while maintaining accessibility for non-tech-savvy users.',
-    solution: 'Implemented a clean, card-based design with biometric authentication, clear visual hierarchy, and contextual help features throughout the app.',
-  },
-  {
-    id: 'ecommerce-dashboard',
-    title: 'E-Commerce Dashboard',
-    category: 'ux-ui',
-    description: 'A comprehensive analytics dashboard for online retailers to monitor sales, inventory, and customer behavior.',
-    image: 'https://images.unsplash.com/photo-1771922748624-b205cf5d002d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWJzaXRlJTIwZGVzaWduJTIwZGFzaGJvYXJkfGVufDF8fHx8MTc3NDQzMzgyMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    tags: ['Web', 'Dashboard', 'Analytics', 'B2B'],
-    year: '2026',
-    client: 'ShopMetrics',
-    overview: 'Created a powerful yet intuitive dashboard for e-commerce businesses to track key metrics and make data-driven decisions.',
-    challenge: 'Display complex data sets in a way that is easy to understand and actionable for business owners without data analysis experience.',
-    solution: 'Designed interactive charts, real-time notifications, and customizable widgets with clear data visualization principles.',
-  },
-  {
-    id: 'design-system',
-    title: 'Corporate Design System',
-    category: 'ux-ui',
-    description: 'A scalable design system with reusable components and comprehensive documentation for a large enterprise.',
-    image: 'https://images.unsplash.com/photo-1629494893504-d41e26a02631?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1eCUyMHVpJTIwZGVzaWduJTIwbW9ja3VwfGVufDF8fHx8MTc3NDQ3MDkyN3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    tags: ['Design System', 'Components', 'Documentation', 'Figma'],
-    year: '2025',
-    client: 'TechCorp',
-    overview: 'Built a comprehensive design system to ensure consistency across 20+ products and streamline the design-to-development workflow.',
-    challenge: 'Create a flexible system that accommodates diverse product needs while maintaining brand consistency and reducing design debt.',
-    solution: 'Developed a token-based design system with atomic components, clear documentation, and Figma variants for maximum flexibility.',
-  },
-  {
-    id: 'brand-animation',
-    title: 'Brand Launch Animation',
-    category: 'animation',
-    description: 'An eye-catching animated sequence for a tech startup\'s brand launch campaign across digital platforms.',
-    image: 'https://images.unsplash.com/photo-1740174459682-4dd3f72e2512?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb3Rpb24lMjBncmFwaGljcyUyMGFuaW1hdGlvbnxlbnwxfHx8fDE3NzQ0NjE5Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    tags: ['Motion Graphics', 'Branding', '2D Animation', 'After Effects'],
-    year: '2026',
-    client: 'StartupX',
-    overview: 'Created dynamic motion graphics for a brand launch that captures attention and communicates the company\'s innovative spirit.',
-    challenge: 'Translate abstract brand values into compelling visual storytelling within a 30-second format.',
-    solution: 'Designed fluid transitions, bold typography animations, and vibrant color schemes that align with the brand identity.',
-  },
-  {
-    id: '3d-product-showcase',
-    title: '3D Product Showcase',
-    category: 'animation',
-    description: 'Photorealistic 3D animations showcasing a new product line from multiple angles with interactive elements.',
-    image: 'https://images.unsplash.com/photo-1710131711438-92bd284b043d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHwzZCUyMGFuaW1hdGlvbiUyMGRlc2lnbnxlbnwxfHx8fDE3NzQ0NzA5Mjl8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    tags: ['3D Animation', 'Product Design', 'Cinema 4D', 'Rendering'],
-    year: '2025',
-    client: 'LuxeGoods',
-    overview: 'Produced high-quality 3D animations for a luxury product launch, highlighting premium materials and craftsmanship.',
-    challenge: 'Create photorealistic renders that accurately represent product details while maintaining smooth animation performance.',
-    solution: 'Used advanced lighting techniques, material shaders, and optimized rendering workflows for stunning visual quality.',
-  },
-  {
-    id: 'ui-microinteractions',
-    title: 'UI Micro-interactions',
-    category: 'animation',
-    description: 'A library of delightful micro-interactions and transitions for enhancing user experience in digital products.',
-    image: 'https://images.unsplash.com/photo-1762919639448-fb39e8d9311e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMGFuaW1hdGlvbiUyMHdvcmtzcGFjZXxlbnwxfHx8fDE3NzQ0NzA5Mjh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    tags: ['UI Animation', 'Micro-interactions', 'Prototyping', 'Lottie'],
-    year: '2026',
-    client: 'Personal Project',
-    overview: 'Developed a collection of smooth, performant animations for buttons, loaders, and feedback states.',
-    challenge: 'Design animations that enhance usability without causing distraction or performance issues.',
-    solution: 'Created purposeful animations with appropriate timing curves, exported as lightweight Lottie files for web implementation.',
+    description:
+      'A 3D animation of a peg character jumping across platforms in Maya with a custom set and animation approach.',
+    image:
+      '/images/Peg.png',
+    tags: ['3D Animation', 'Maya', 'Environment Design', 'Character Motion'],
+    year: '2024',
+    overview:
+      'A 3D animation of a peg character jumping across platforms in Maya, built using a custom set and animation approach. The project demonstrates environmental storytelling through set design alongside character animation, bringing a simple figure to life within a purposefully constructed scene.',
+    challenge:
+      'Animate a convincing jump sequence that sells weight, airtime, and landing impact — while also designing a set that gives the motion context and scale without overshadowing the character.',
+    solution:
+      "The platform layout was designed to create natural anticipation — varying heights and gaps that make each jump feel deliberate and earned. The peg's animation focused on the key principles of squash, stretch, and follow-through, ensuring each takeoff and landing communicated real physical weight despite the character's minimal form.",
+    projectLink: 'https://vimeo.com/1067221403?share=copy&fl=cl&fe=ci',
+    videoUrl: 'https://vimeo.com/1067221403?share=copy&fl=cl&fe=ci',
   },
 ];

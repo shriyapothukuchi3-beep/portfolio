@@ -1,13 +1,39 @@
 import { useParams, useNavigate, Link } from 'react-router';
 import { motion } from 'motion/react';
-import { ArrowLeft, Calendar, Tag } from 'lucide-react';
+import { ArrowLeft, Calendar, Tag, ExternalLink } from 'lucide-react';
 import { projects } from '../data/projects';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
+
+function getCategoryLabel(category: string) {
+  switch (category) {
+    case 'ux-ui':
+      return 'UX/UI Design';
+    case 'design':
+      return 'Design';
+    case 'animation':
+      return 'Animation';
+    default:
+      return category;
+  }
+}
+
+function getAccentColor(category: string) {
+  switch (category) {
+    case 'ux-ui':
+      return '#6C3FC8';
+    case 'design':
+      return '#C4A9F0';
+    case 'animation':
+      return '#0D6E6E';
+    default:
+      return '#6C3FC8';
+  }
+}
 
 export function ProjectDetail() {
   const { id } = useParams();
   const navigate = useNavigate();
-  const project = projects.find(p => p.id === id);
+  const project = projects.find((p) => p.id === id);
 
   if (!project) {
     return (
@@ -26,11 +52,10 @@ export function ProjectDetail() {
     .filter((p) => p.category === project.category && p.id !== project.id)
     .slice(0, 2);
 
-  const accentColor = project.category === 'ux-ui' ? '#6C3FC8' : '#0D6E6E';
+  const accentColor = getAccentColor(project.category);
 
   return (
     <div className="min-h-screen bg-[#0F0F13] pt-24 pb-20">
-      {/* Back Button */}
       <div className="px-6 lg:px-8 mb-8">
         <div className="max-w-6xl mx-auto">
           <button
@@ -43,7 +68,6 @@ export function ProjectDetail() {
         </div>
       </div>
 
-      {/* Hero Media */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -54,7 +78,7 @@ export function ProjectDetail() {
           {project.videoUrl ? (
             <div className="aspect-[16/9] overflow-hidden bg-[#1A1A2A]">
               <iframe
-                src={`https://player.vimeo.com/video/${project.videoUrl.split('/').pop()}?badge=0&autopause=0&player_id=0&app_id=58479`}
+                src={`https://player.vimeo.com/video/${project.videoUrl.split('/').pop()?.split('?')[0]}?badge=0&autopause=0&player_id=0&app_id=58479`}
                 className="w-full h-full"
                 frameBorder="0"
                 allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
@@ -73,7 +97,6 @@ export function ProjectDetail() {
         </div>
       </motion.div>
 
-      {/* Content */}
       <div className="px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <motion.div
@@ -81,9 +104,8 @@ export function ProjectDetail() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            {/* Title Section */}
             <div className="mb-12">
-              <div 
+              <div
                 className="w-8 h-[2px] mb-6"
                 style={{ backgroundColor: accentColor }}
               />
@@ -93,7 +115,6 @@ export function ProjectDetail() {
               <p className="text-lg text-[#999]">{project.description}</p>
             </div>
 
-            {/* Meta Info */}
             <div className="grid sm:grid-cols-2 gap-6 py-12 border-y border-[#2a2a35] mb-12">
               <div className="flex items-start gap-3">
                 <Calendar className="text-[#666] mt-1" size={18} />
@@ -107,13 +128,12 @@ export function ProjectDetail() {
                 <div>
                   <div className="text-xs text-[#666] mb-1">Category</div>
                   <div className="text-sm text-[#F5F5F5]">
-                    {project.category === 'ux-ui' ? 'UX/UI Design' : 'Animation'}
+                    {getCategoryLabel(project.category)}
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Tags */}
             <div className="mb-12">
               <div className="flex flex-wrap gap-2">
                 {project.tags.map((tag) => (
@@ -127,7 +147,20 @@ export function ProjectDetail() {
               </div>
             </div>
 
-            {/* Project Details */}
+            {project.projectLink && (
+              <div className="mb-12">
+                <a
+                  href={project.projectLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-[#6C3FC8] text-[#F5F5F5] text-sm font-medium hover:bg-[#7d4fd9] transition-colors"
+                >
+                  <ExternalLink size={16} />
+                  View Project
+                </a>
+              </div>
+            )}
+
             <div className="space-y-12 mb-16">
               <div>
                 <h2 className="text-xl font-medium text-[#F5F5F5] mb-4">Overview</h2>
@@ -145,7 +178,6 @@ export function ProjectDetail() {
               </div>
             </div>
 
-            {/* Related Projects */}
             {relatedProjects.length > 0 && (
               <div className="pt-12 border-t border-[#2a2a35]">
                 <h2 className="text-xl font-medium text-[#F5F5F5] mb-8">More Projects</h2>
