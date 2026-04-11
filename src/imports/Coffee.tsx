@@ -1,11 +1,11 @@
 import svgPaths from "./svg-n9rwm2jnqd";
-const imgScreenshot20260403At72837Pm1 = "/images/Brewandblend.png";
-const imgScreenshot20260404At121216Am1 = "/images/Brewandblend.png";
-const imgScreenshot20260404At121322Am1 = "/images/Brewandblend.png";
-const imgScreenshot20260404At121509Am1 = "/images/Brewandblend.png";
-const imgScreenshot20260404At121529Am1 = "/images/Brewandblend.png";
-const imgScreenshot20260404At121920Am1 = "/images/Brewandblend.png";
-const imgScreenshot20260404At121959Am1 = "/images/Brewandblend.png";
+const imgScreenshot20260403At72837Pm1 = "/images/brewcoffee-homepage.png";
+const imgScreenshot20260404At121216Am1 = "/images/brewcoffee-1.png";
+const imgScreenshot20260404At121322Am1 = "/images/brewcoffee-2.png";
+const imgScreenshot20260404At121509Am1 = "/images/brewcoffee-3.png";
+const imgScreenshot20260404At121529Am1 = "/images/brewcoffee-4.png";
+const imgScreenshot20260404At121920Am1 = "/images/brewcoffee-5.png";
+const imgScreenshot20260404At121959Am1 = "/images/brewcoffee-6.png";
 
 function Header() {
   return (

@@ -1,10 +1,10 @@
 import svgPaths from "./svg-nwny7jcfjx";
-const imgScreenshot20260403At111400Pm3 = "/images/Meetup.png";
-const imgScreenshot20260403At114652Pm1 = "/images/Meetup.png";
-const imgScreenshot20260403At114823Pm1 = "/images/Meetup.png";
-const imgScreenshot20260403At115014Pm1 = "/images/Meetup.png";
-const imgScreenshot20260403At115040Pm1 = "/images/Meetup.png";
-const imgScreenshot20260403At115100Pm1 = "/images/Meetup.png";
+const imgScreenshot20260403At111400Pm3 = "/images/meetup-1.png";
+const imgScreenshot20260403At114652Pm1 = "/images/meetup-2.png";
+const imgScreenshot20260403At114823Pm1 = "/images/meetup-3.png";
+const imgScreenshot20260403At115014Pm1 = "/images/meetup-4.png";
+const imgScreenshot20260403At115040Pm1 = "/images/meetup-5.png";
+const imgScreenshot20260403At115100Pm1 = "/images/meetup-6.png";
 
 function Header() {
   return (

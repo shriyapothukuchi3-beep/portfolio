@@ -1,8 +1,8 @@
 import svgPaths from "./svg-q0lvc4xdz4";
-const imgScreenshot20260403At71217Pm2 = "/images/8E5118F7-9B6A-4460-B0BD-456CFCA2C193_1_102_o.jpeg";
-const imgScreenshot20260403At72837Pm2 = "/images/31716875-19CE-4A63-8AF8-566911951BEF_1_102_o.jpeg";
-const imgScreenshot20260403At65906Pm1 = "/images/31716875-19CE-4A63-8AF8-566911951BEF_1_102_o.jpeg";
-const imgScreenshot20260403At111400Pm2 = "/images/974676F1-7D04-447E-BB41-7EBEBF5C78A6_1_102_o.jpeg";
+const imgScreenshot20260403At71217Pm2 = "/images/lune-homepage.png";
+const imgScreenshot20260403At72837Pm2 = "/images/brewcoffee-homepage.png";
+const imgScreenshot20260403At65906Pm1 = "/images/rentique-homepage.png";
+const imgScreenshot20260403At111400Pm2 = "/images/meetup-uiux.png";
 
 function Bar() {
   return (

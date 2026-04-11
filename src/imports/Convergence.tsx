@@ -1,9 +1,9 @@
 import svgPaths from "./svg-h0hjnlt2xr";
-const imgHero = "/images/Derbycar.png";
-const imgInitalPrototype1 = "/images/Derbycar.png";
-const imgSketch16764075615591 = "/images/Derbycar.png";
-const imgSketch16763580954261 = "/images/Derbycar.png";
-const imgSketch16763580551531 = "/images/Derbycar.png";
+const imgHero = "/images/Final.png";
+const imgInitalPrototype1 = "/images/convergence-1.png";
+const imgSketch16764075615591 = "/images/convergence-2.png";
+const imgSketch16763580954261 = "/images/convergence-3.png";
+const imgSketch16763580551531 = "/images/convergence-4.png";
 
 function Header() {
   return (

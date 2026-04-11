@@ -1,11 +1,11 @@
 import svgPaths from "./svg-k3ylavv1vu";
-const imgScreenshot20260403At71217Pm2 = "/images/Walk.png";
-const imgWhatsAppImage20260328At1546311 = "/images/Walk.png";
-const imgScreenshot20260402At10516Am1 = "/images/Walk.png";
-const imgScreenshot20260402At25111Am1 = "/images/Walk.png";
-const imgScreenshot20260404At123255Am1 = "/images/Walk.png";
-const imgScreenshot20260404At123309Am1 = "/images/Walk.png";
-const imgScreenshot20260404At123322Am1 = "/images/Walk.png";
+const imgScreenshot20260403At71217Pm2 = "/images/lune-homepage.png";
+const imgWhatsAppImage20260328At1546311 = "/images/lune-1.png";
+const imgScreenshot20260402At10516Am1 = "/images/lune-2.png";
+const imgScreenshot20260402At25111Am1 = "/images/lune-3.png";
+const imgScreenshot20260404At123255Am1 = "/images/lune-4.png";
+const imgScreenshot20260404At123309Am1 = "/images/lune-5.png";
+const imgScreenshot20260404At123322Am1 = "/images/lune-6.png";
 
 function Header() {
   return (

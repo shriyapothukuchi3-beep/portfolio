@@ -1,8 +1,9 @@
 import svgPaths from "../../imports/svg-h0hjnlt2xr";
-import imgHero from "figma:asset/b8cde57bd8d45fe628a1a105fe085662692994da.png";
-import imgFinal2 from "figma:asset/509adf372fecf45684239762387f5b0a2c5f1977.png";
-import imgSketches from "figma:asset/668add30f02b4a4700038b7ccd2896814b02af2b.png";
 import { NavigationOverlay } from "./NavigationOverlay";
+
+const imgHero = "/images/color-final-prototype.png";
+const imgFinal2 = "/images/cumbia-initial.png";
+const imgSketches = "/images/cumbia-sketches.png";
 
 function Header() {
   return (
@@ -40,7 +41,6 @@ export default function CumbiaProject() {
         <div className="bg-[#120a08] relative size-full" data-name="Cumbia">
           <Header />
 
-          {/* Back chevron */}
           <div className="absolute left-0 overflow-clip size-[80px] top-[184px]" data-name="chevron_backward">
             <div className="absolute bottom-1/4 left-[33.33%] right-[35.83%] top-1/4" data-name="icon">
               <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24.6667 40">
@@ -49,7 +49,6 @@ export default function CumbiaProject() {
             </div>
           </div>
 
-          {/* ── Hero image ── */}
           <div className="absolute h-[807px] left-0 rounded-[10px] top-[351px] w-[1280px]" data-name="hero">
             <img
               alt="Cumbia — Digital Illustration"
@@ -58,21 +57,17 @@ export default function CumbiaProject() {
             />
           </div>
 
-          {/* ── Title ── */}
           <p className="absolute font-['Clash_Display:Semibold',sans-serif] leading-[normal] left-[86px] not-italic text-[#d4896a] text-[64px] top-[1201px] w-[1157px]">
             Cumbia — Digital Illustration
           </p>
 
-          {/* ── Subtitle ── */}
           <div className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal h-[75px] leading-[0] left-[86px] text-[#f2d6cc] text-[20px] top-[1392px] w-[1137px]">
             <p className="leading-[normal] mb-0">A bold digital illustration capturing the energy and motion of traditional Latin dance.</p>
             <p className="leading-[normal]">&nbsp;</p>
           </div>
 
-          {/* ── Divider 1 ── */}
           <Divider top={1446} />
 
-          {/* ── Year ── */}
           <div className="absolute contents left-[205px] top-[1465px]" data-name="year">
             <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[241px] text-[#f2d6cc] text-[24px] top-[1465px] whitespace-nowrap">Year</p>
             <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[219px] text-[#f2d6cc] text-[24px] top-[1508px] whitespace-nowrap">2024</p>
@@ -87,7 +82,6 @@ export default function CumbiaProject() {
             </div>
           </div>
 
-          {/* ── Category ── */}
           <div className="absolute contents left-[703px] top-[1465px]" data-name="category">
             <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[742px] text-[#f2d6cc] text-[24px] top-[1465px] whitespace-nowrap">Category</p>
             <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[757px] text-[#f2d6cc] text-[24px] top-[1508px] whitespace-nowrap">Design</p>
@@ -102,10 +96,8 @@ export default function CumbiaProject() {
             </div>
           </div>
 
-          {/* ── Divider 2 ── */}
           <Divider top={1569} />
 
-          {/* ── Tags ── */}
           {[
             { label: "Illustration", left: 85, width: 184 },
             { label: "Digital Art", left: 291, width: 167 },
@@ -126,7 +118,6 @@ export default function CumbiaProject() {
             </div>
           ))}
 
-          {/* ── Overview ── */}
           <div className="absolute contents leading-[normal] left-[76px] text-[#f2d6cc] text-[32px] top-[1782px]" data-name="overview">
             <p className="absolute font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold left-[81px] top-[1782px] w-[1127px]">Overview</p>
             <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal left-[76px] top-[1868px] w-[1127px]">
@@ -134,7 +125,6 @@ export default function CumbiaProject() {
             </p>
           </div>
 
-          {/* ── Challenge ── */}
           <div className="absolute contents left-[76px] text-[#f2d6cc] text-[32px] top-[2154px]" data-name="challenge">
             <p className="absolute font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[normal] left-[76px] top-[2154px] w-[1127px]">Challenge</p>
             <div className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[0] left-[76px] top-[2230px] w-[1127px]">
@@ -143,10 +133,8 @@ export default function CumbiaProject() {
             </div>
           </div>
 
-          {/* ── Sketches & initial prototype ── */}
           <div className="absolute contents left-[76px] top-[2450px]" data-name="wireframe">
             <p className="absolute font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[normal] left-[76px] text-[#f2d6cc] text-[32px] top-[2450px] w-[499px] whitespace-pre-wrap">{`Sketches and initial prototype`}</p>
-            {/* 6-sketch grid image */}
             <div className="absolute left-[76px] top-[2530px] w-[1127px] h-[780px]" data-name="sketches">
               <img
                 alt="Sketches and initial explorations"
@@ -156,16 +144,14 @@ export default function CumbiaProject() {
             </div>
           </div>
 
-          {/* ── Solution ── */}
           <div className="absolute contents left-[76px] text-[#f2d6cc] text-[32px] top-[3450px]" data-name="solution">
             <p className="absolute font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[normal] left-[76px] top-[3450px] w-[1127px]">Solution</p>
             <div className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[0] left-[76px] top-[3540px] w-[1127px]">
-              <p className="leading-[normal] mb-0">Six early explorations tested everything from abstract swirls to flat graphic silhouettes before the final direction locked in. The dense contour lines rippling across the dancer's skirt were inspired directly by the layered, billowing fabric of traditional cumbia costumes — reinterpreted through neon yellow-green and crimson to capture the heat of the dance floor rather than replicate it literally.</p>
+              <p className="leading-[normal] mb-0">Six early explorations tested everything from abstract swirls to flat graphic silhouettes before the final direction locked in. The dense contour lines rippling across the dancer&apos;s skirt were inspired directly by the layered, billowing fabric of traditional cumbia costumes — reinterpreted through neon yellow-green and crimson to capture the heat of the dance floor rather than replicate it literally.</p>
               <p className="leading-[normal]">&nbsp;</p>
             </div>
           </div>
 
-          {/* ── Final renders ── */}
           <div className="absolute h-[760px] left-[76px] rounded-[10px] top-[3900px] w-[545px]" data-name="Final 1">
             <img
               alt="Cumbia final illustration"

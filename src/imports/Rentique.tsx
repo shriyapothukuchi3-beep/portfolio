@@ -1,9 +1,9 @@
 import svgPaths from "./svg-uls2v2l8cn";
-const imgScreenshot20260403At65906Pm1 = "/images/Rentique.png";
-const imgScreenshot20260404At120159Am1 = "/images/Rentique.png";
-const imgScreenshot20260404At120320Am1 = "/images/Rentique.png";
-const imgScreenshot20260404At120407Am1 = "/images/Rentique.png";
-const imgScreenshot20260404At120334Am1 = "/images/Rentique.png";
+const imgScreenshot20260403At65906Pm1 = "/images/rentique-homepage.png";
+const imgScreenshot20260404At120159Am1 = "/images/rentique-wireframe.png";
+const imgScreenshot20260404At120320Am1 = "/images/rentique-1.png";
+const imgScreenshot20260404At120407Am1 = "/images/rentique-2.png";
+const imgScreenshot20260404At120334Am1 = "/images/rentique-3.png";
 
 function Header() {
   return (

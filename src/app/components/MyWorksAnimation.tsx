@@ -1,7 +1,8 @@
-import imgDerbyCar from "figma:asset/fee04dfbc807907e6231f53878c48d6ece6f0aa1.png";
-import imgBallBounce from "figma:asset/a8b26ae8565293b3e3bc679b1beb3182b6a43c26.png";
-import imgPegJump from "figma:asset/f4f0aec16b47ae552db03133e458277bcd3a9b49.png";
-import imgWalkCycle from "figma:asset/2998729d4f6d568e2f07f0b60273766ff4e36c93.png";
+const imgDerbyCar = "/images/Derbycar.png";
+const imgBallBounce = "/images/Bouncingball.png";
+const imgPegJump = "/images/Peg.png";
+const imgWalkCycle = "/images/Walk.png";
+     
 import svgPaths from "../../imports/svg-q0lvc4xdz4";
 import { NavigationOverlay } from "./NavigationOverlay";
 import { Link } from "react-router";

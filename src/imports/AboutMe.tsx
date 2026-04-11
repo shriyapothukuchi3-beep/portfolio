@@ -1,6 +1,6 @@
 import svgPaths from "./svg-me72fshizi";
-const imgThoughtCatalog505EectW54KUnsplash1 = "/images/aboutus.jpeg";
-const imgProfilePic = "/images/aboutus.jpeg";
+const imgThoughtCatalog505EectW54KUnsplash1 = "/images/aboutme-1.png";
+const imgProfilePic = "/images/aboutme-2.png";
 
 function Header() {
   return (

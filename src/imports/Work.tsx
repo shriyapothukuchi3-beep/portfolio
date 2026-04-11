@@ -1,7 +1,7 @@
 import svgPaths from "./svg-o9j6pk6k7c";
-const imgSarathPRajP8GmCEgSmmoUnsplash1 = "/images/625ABFFE-D2B0-470B-ADA9-2D6D9C7C57E3_1_102_o.jpeg";
-const img2HMediaNmSPbe0BDtcUnsplash1 = "/images/D85DDACE-B2B5-46F0-A8FF-D83D3E83BF4D_1_102_o.jpeg";
-const imgAmelieMourichonSv8OOQaUbOUnsplash1 = "/images/137C639D-073C-4ADA-B4BD-0EA40067818A_1_102_o.jpeg";
+const imgSarathPRajP8GmCEgSmmoUnsplash1 = "/images/animation-work.png";
+const img2HMediaNmSPbe0BDtcUnsplash1 = "/images/design-work.png";
+const imgAmelieMourichonSv8OOQaUbOUnsplash1 = "/images/ux-work.png";
 
 function Aniamtion() {
   return (

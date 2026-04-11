@@ -6,89 +6,63 @@ import { NavigationOverlay } from "./NavigationOverlay";
 
 interface GalleryItem {
   url: string;
-  title: string;
-  category: string;
   height: number;
 }
 
 // Distribute 12 images across 3 columns with deliberately uneven heights
 const col1: GalleryItem[] = [
   {
-    url: "https://images.unsplash.com/photo-1624382902990-ba48d7eff47f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080",
-    title: "Cumbia",
-    category: "Digital Illustration",
+    url: "/images/gallery-1.jpeg",
     height: 300,
   },
   {
-    url: "https://images.unsplash.com/photo-1741894785509-d87c84bdc275?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080",
-    title: "Character Studies",
-    category: "Digital Illustration",
+    url: "/images/gallery-2.jpeg",   
     height: 480,
   },
   {
-    url: "https://images.unsplash.com/photo-1602731466827-02e64a243a34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080",
-    title: "Neon Abstractions",
-    category: "Digital Art",
+    url: "/images/gallery-10.jpeg",
     height: 340,
   },
   {
-    url: "https://images.unsplash.com/photo-1775049873580-124a2c53718d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080",
-    title: "Portrait Study",
-    category: "Watercolour",
+    url: "/images/gallery-4.jpeg",
     height: 460,
   },
 ];
 
 const col2: GalleryItem[] = [
   {
-    url: "https://images.unsplash.com/photo-1763732397784-c5ff2651d40c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080",
-    title: "Convergence",
-    category: "Manga Illustration",
+    url: "/images/gallery-5.jpeg",
     height: 480,
   },
   {
-    url: "https://images.unsplash.com/photo-1603828120239-0520c93d8376?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080",
-    title: "Sketchbook Vol. 3",
-    category: "Pencil & Ink",
+    url: "/images/gallery-3.jpeg",
     height: 310,
   },
   {
-    url: "https://images.unsplash.com/photo-1770581939371-326fc1537f10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080",
-    title: "Type Explorations",
-    category: "Graphic Design",
+    url: "/images/gallery-9.jpeg",
     height: 450,
   },
   {
-    url: "https://images.unsplash.com/photo-1652129950700-8517fe5d068d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080",
-    title: "3D Figure",
-    category: "3D / Blender",
+    url: "/images/gallery-8.jpeg",
     height: 330,
   },
 ];
 
 const col3: GalleryItem[] = [
   {
-    url: "https://images.unsplash.com/photo-1636189239307-9f3a701f30a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080",
-    title: "Animation Frames",
-    category: "Storyboard",
+    url: "/images/gallery-7.jpeg",
     height: 330,
   },
   {
-    url: "https://images.unsplash.com/photo-1576153192396-180ecef2a715?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080",
-    title: "MeetUp",
-    category: "UX / UI Design",
+    url: "/images/gallery-11.jpeg",
     height: 480,
   },
   {
-    url: "https://images.unsplash.com/photo-1763797833964-df8db924f20c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080",
-    title: "Derby Car",
-    category: "3D Animation",
+    url: "/images/gallery-6.jpeg",
     height: 300,
   },
   {
-    url: "https://images.unsplash.com/photo-1773525912476-213bff96b8a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080",
-    title: "Print Series",
-    category: "Screen Printing",
+    url: "/images/gallery-12.jpeg",
     height: 430,
   },
 ];
@@ -282,7 +256,7 @@ export default function GalleryPage() {
             <Bar />
 
             {/* Page title */}
-            <Heading />
+            {/* <Heading /> */}
 
             {/* Back chevron visual */}
             <div className="absolute left-[-1px] overflow-clip size-[80px] top-[184px]">

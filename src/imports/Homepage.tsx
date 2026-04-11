@@ -1,7 +1,7 @@
-const imgHero = "/images/974676F1-7D04-447E-BB41-7EBEBF5C78A6_1_102_o.jpeg";
-const imgRentique = "/images/Rentique.png";
-const imgLune = "/images/Walk.png";
-const imgCoffee = "/images/Brewandblend.png";
+const imgHero = "/images/hero-homepage.png";
+const imgRentique = "/images/rentique-homepage.png";
+const imgLune = "/images/lune-homepage.png";
+const imgCoffee = "/images/brewcoffee-homepage.png";
 const imgProfilePic = "/images/aboutus.jpeg";
 
 function Header() {
