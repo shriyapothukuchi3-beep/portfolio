@@ -15,10 +15,10 @@ function Header() {
         </svg>
       </div>
       <div className="absolute bg-[rgba(18,10,8,0.28)] h-[125px] left-0 opacity-48 top-0 w-[1280px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[21px] text-[#f2d6cc] text-[32px] top-[48px] w-[362px]">SHRIYA POTHUKUCHI</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[792px] text-[#f2d6cc] text-[32px] top-[41px] w-[104px]">WORK</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[1098px] text-[#f2d6cc] text-[32px] top-[41px] w-[118px]">{`ABOUT `}</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[922px] text-[#f2d6cc] text-[32px] top-[41px] w-[152px]">GALLERY</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[21px] text-[#f2d6cc] text-[32px] top-[48px] w-[362px]">SHRIYA POTHUKUCHI</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[792px] text-[#f2d6cc] text-[32px] top-[41px] w-[104px]">WORK</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[1098px] text-[#f2d6cc] text-[32px] top-[41px] w-[118px]">{`ABOUT `}</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[922px] text-[#f2d6cc] text-[32px] top-[41px] w-[152px]">GALLERY</p>
     </div>
   );
 }
@@ -26,8 +26,8 @@ function Header() {
 function Brand() {
   return (
     <div className="absolute contents left-0 top-[355px]" data-name="brand">
-      <p className="absolute font-['Clash_Display:Semibold',sans-serif] leading-[normal] left-[86px] not-italic text-[#d4896a] text-[64px] top-[1201px] w-[1012px]">Meet Up? — Social Meetup App</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal h-[75px] leading-[normal] left-[97px] text-[#f2d6cc] text-[20px] top-[1295px] w-[1069px]">A community-driven mobile app designed to help people connect through shared interests and real-world events.</p>
+      <p className="absolute font-['Clash_Display',sans-serif] font-semibold leading-[normal] left-[86px] not-italic text-[#d4896a] text-[64px] top-[1201px] w-[1012px]">Meet Up? — Social Meetup App</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal h-[75px] leading-[normal] left-[97px] text-[#f2d6cc] text-[20px] top-[1295px] w-[1069px]">A community-driven mobile app designed to help people connect through shared interests and real-world events.</p>
       <div className="absolute h-[807px] left-0 top-[355px] w-[1280px]" data-name="Screenshot 2026-04-03 at 11.14.00 PM 3">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute h-[102.24%] left-[-3.5%] max-w-none top-0 w-[124.69%]" src={imgScreenshot20260403At111400Pm3} />
@@ -40,8 +40,8 @@ function Brand() {
 function Year() {
   return (
     <div className="absolute contents left-[194px] top-[1448px]" data-name="year">
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[230px] text-[#f2d6cc] text-[24px] top-[1448px] whitespace-nowrap">{`Year `}</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[208px] text-[#f2d6cc] text-[24px] top-[1491px] whitespace-nowrap">2023</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[230px] text-[#f2d6cc] text-[24px] top-[1448px] whitespace-nowrap">{`Year `}</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[208px] text-[#f2d6cc] text-[24px] top-[1491px] whitespace-nowrap">2023</p>
       <div className="absolute left-[194px] opacity-68 overflow-clip size-[28px] top-[1448px]" data-name="Calendar">
         <div className="absolute inset-[8.33%_12.5%]" data-name="Icon">
           <div className="absolute inset-[-8.57%_-9.52%]">
@@ -58,8 +58,8 @@ function Year() {
 function Category() {
   return (
     <div className="absolute contents left-[692px] top-[1448px]" data-name="category">
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[731px] text-[#f2d6cc] text-[24px] top-[1448px] whitespace-nowrap">Category</p>
-      <div className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[0] left-[711px] text-[#f2d6cc] text-[24px] top-[1491px] whitespace-nowrap">
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[731px] text-[#f2d6cc] text-[24px] top-[1448px] whitespace-nowrap">Category</p>
+      <div className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[0] left-[711px] text-[#f2d6cc] text-[24px] top-[1491px] whitespace-nowrap">
         <p className="leading-[normal] mb-0">UX/UI Design</p>
         <p className="leading-[normal]">&nbsp;</p>
       </div>
@@ -89,7 +89,7 @@ function UxUi() {
   return (
     <div className="absolute contents left-[85px] top-[1640px]" data-name="ux/ui">
       <div className="absolute bg-[rgba(122,92,84,0.82)] h-[58px] left-[85px] rounded-[10px] top-[1640px] w-[184px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[115px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[115px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">
         UX/UI Design
         <br aria-hidden="true" />
         <br aria-hidden="true" />
@@ -102,7 +102,7 @@ function Community() {
   return (
     <div className="absolute contents left-[291px] top-[1640px]" data-name="community">
       <div className="absolute bg-[rgba(122,92,84,0.82)] h-[58px] left-[291px] rounded-[10px] top-[1640px] w-[152px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[313px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">Community</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[313px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">Community</p>
     </div>
   );
 }
@@ -111,7 +111,7 @@ function MobileApp() {
   return (
     <div className="absolute contents left-[467px] top-[1640px]" data-name="mobile app">
       <div className="absolute bg-[rgba(122,92,84,0.82)] h-[58px] left-[467px] rounded-[10px] top-[1640px] w-[152px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[487px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[487px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">
         Mobile App
         <br aria-hidden="true" />
         <br aria-hidden="true" />
@@ -124,7 +124,7 @@ function Figma() {
   return (
     <div className="absolute contents left-[650px] top-[1640px]" data-name="figma">
       <div className="absolute bg-[rgba(122,92,84,0.82)] h-[58px] left-[650px] rounded-[10px] top-[1640px] w-[141px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[692px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">Figma</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[692px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">Figma</p>
     </div>
   );
 }
@@ -144,7 +144,7 @@ function Viewproject() {
   return (
     <a className="absolute contents cursor-pointer left-[86px] top-[1778px]" data-name="viewproject" href="https://www.figma.com/proto/ktb0fSYTvjDRVppMyANplE/Interactive-design?node-id=18-156&viewport=189%2C240%2C0.28&t=1TnTAd4UiVVlNlki-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=18%3A156&page-id=0%3A1" target="_blank">
       <div className="absolute bg-[#d4896a] h-[58px] left-[86px] rounded-[10px] top-[1778px] w-[252px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold h-[40px] leading-[normal] left-[112px] text-[#7a5c54] text-[32px] top-[1787px] w-[199px]">View project</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-bold h-[40px] leading-[normal] left-[112px] text-[#7a5c54] text-[32px] top-[1787px] w-[199px]">View project</p>
     </a>
   );
 }
@@ -152,8 +152,8 @@ function Viewproject() {
 function Overview() {
   return (
     <div className="absolute contents leading-[normal] left-[76px] text-[#f2d6cc] text-[32px] top-[1929px]" data-name="overview">
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal left-[76px] top-[2015px] w-[1127px]">{`Meet Up? is a community-driven mobile app designed to help people connect through shared interests and real-world events. Users can discover what's happening today, join groups like anime clubs or casual lunches, attend meetings both in-person and virtually, and track their social growth over time. With a playful illustrated aesthetic and a warm, encouraging tone, the app makes stepping out of your comfort zone feel approachable and fun.`}</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold left-[81px] top-[1929px] w-[1127px]">Overview</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal left-[76px] top-[2015px] w-[1127px]">{`Meet Up? is a community-driven mobile app designed to help people connect through shared interests and real-world events. Users can discover what's happening today, join groups like anime clubs or casual lunches, attend meetings both in-person and virtually, and track their social growth over time. With a playful illustrated aesthetic and a warm, encouraging tone, the app makes stepping out of your comfort zone feel approachable and fun.`}</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-bold left-[81px] top-[1929px] w-[1127px]">Overview</p>
     </div>
   );
 }
@@ -161,8 +161,8 @@ function Overview() {
 function Challeneg() {
   return (
     <div className="absolute contents leading-[normal] left-[76px] text-[#f2d6cc] text-[32px] top-[2382px]" data-name="challeneg">
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal left-[76px] top-[2458px] w-[1127px]">Many people — especially college students and young adults — want to build meaningful social connections but struggle with the awkward first step of putting themselves out there. The challenge was to design a social app that lowers the barrier to meeting new people, supports both in-person and virtual engagement, and keeps users motivated to stay socially active without feeling pressured.</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold left-[76px] top-[2382px] w-[1127px]">Challenge</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal left-[76px] top-[2458px] w-[1127px]">Many people — especially college students and young adults — want to build meaningful social connections but struggle with the awkward first step of putting themselves out there. The challenge was to design a social app that lowers the barrier to meeting new people, supports both in-person and virtual engagement, and keeps users motivated to stay socially active without feeling pressured.</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-bold left-[76px] top-[2382px] w-[1127px]">Challenge</p>
     </div>
   );
 }
@@ -170,7 +170,7 @@ function Challeneg() {
 function Wireframe() {
   return (
     <div className="absolute contents left-[76px] top-[2812px]" data-name="wireframe">
-      <p className="absolute font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[normal] left-[76px] text-[#f2d6cc] text-[32px] top-[2812px] w-[220px]">Wireframes</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-bold leading-[normal] left-[76px] text-[#f2d6cc] text-[32px] top-[2812px] w-[220px]">Wireframes</p>
       <div className="absolute h-[474px] left-[226px] top-[2914px] w-[669px]" data-name="Screenshot 2026-04-03 at 11.46.52 PM 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgScreenshot20260403At114652Pm1} />
       </div>
@@ -184,8 +184,8 @@ function Wireframe() {
 function Solurion() {
   return (
     <div className="absolute contents leading-[normal] left-[76px] text-[#f2d6cc] text-[32px] top-[4025px]" data-name="solurion">
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal left-[76px] top-[4121px] w-[1127px]">{`A home screen that makes showing up easy — today's events and online friends are front and center, so there's always a reason to act. Joining an event takes just a few taps: pick in-person or virtual, see who's coming, confirm the location, and go. A weekly social summary celebrates progress and gently nudges users to keep engaging, turning a daunting habit into a rewarding one.`}</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold left-[76px] top-[4025px] w-[1127px]">Solution</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal left-[76px] top-[4121px] w-[1127px]">{`A home screen that makes showing up easy — today's events and online friends are front and center, so there's always a reason to act. Joining an event takes just a few taps: pick in-person or virtual, see who's coming, confirm the location, and go. A weekly social summary celebrates progress and gently nudges users to keep engaging, turning a daunting habit into a rewarding one.`}</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-bold left-[76px] top-[4025px] w-[1127px]">Solution</p>
     </div>
   );
 }

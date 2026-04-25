@@ -16,10 +16,10 @@ function Header() {
         </svg>
       </div>
       <div className="absolute bg-[rgba(18,10,8,0.28)] h-[125px] left-0 opacity-48 top-0 w-[1280px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[21px] text-[#f2d6cc] text-[32px] top-[48px] w-[362px]">SHRIYA POTHUKUCHI</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[792px] text-[#f2d6cc] text-[32px] top-[41px] w-[104px]">WORK</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[1098px] text-[#f2d6cc] text-[32px] top-[41px] w-[118px]">{`ABOUT `}</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[922px] text-[#f2d6cc] text-[32px] top-[41px] w-[152px]">GALLERY</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[21px] text-[#f2d6cc] text-[32px] top-[48px] w-[362px]">SHRIYA POTHUKUCHI</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[792px] text-[#f2d6cc] text-[32px] top-[41px] w-[104px]">WORK</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[1098px] text-[#f2d6cc] text-[32px] top-[41px] w-[118px]">{`ABOUT `}</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[922px] text-[#f2d6cc] text-[32px] top-[41px] w-[152px]">GALLERY</p>
     </div>
   );
 }
@@ -27,8 +27,8 @@ function Header() {
 function Heading() {
   return (
     <div className="absolute contents leading-[normal] left-[86px] top-[1201px]" data-name="heading">
-      <p className="absolute font-['Clash_Display:Semibold',sans-serif] left-[86px] not-italic text-[#d4896a] text-[64px] top-[1201px] w-[1120px]">Lune — Luxury E-Commerce Post-Purchase Journey</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal h-[75px] left-[86px] text-[#f2d6cc] text-[20px] top-[1377px] w-[1069px]">A refined and considered mobile app experience for a luxury fashion brand, guiding customers through every moment after the purchase.</p>
+      <p className="absolute font-['Clash_Display',sans-serif] font-semibold left-[86px] not-italic text-[#d4896a] text-[64px] top-[1201px] w-[1120px]">Lune — Luxury E-Commerce Post-Purchase Journey</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal h-[75px] left-[86px] text-[#f2d6cc] text-[20px] top-[1377px] w-[1069px]">A refined and considered mobile app experience for a luxury fashion brand, guiding customers through every moment after the purchase.</p>
     </div>
   );
 }
@@ -36,8 +36,8 @@ function Heading() {
 function Year() {
   return (
     <div className="absolute contents left-[194px] top-[1477px]" data-name="year">
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[230px] text-[#f2d6cc] text-[24px] top-[1477px] whitespace-nowrap">{`Year `}</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[208px] text-[#f2d6cc] text-[24px] top-[1520px] whitespace-nowrap">2026</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[230px] text-[#f2d6cc] text-[24px] top-[1477px] whitespace-nowrap">{`Year `}</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[208px] text-[#f2d6cc] text-[24px] top-[1520px] whitespace-nowrap">2026</p>
       <div className="absolute left-[194px] opacity-68 overflow-clip size-[28px] top-[1477px]" data-name="Calendar">
         <div className="absolute inset-[8.33%_12.5%]" data-name="Icon">
           <div className="absolute inset-[-8.57%_-9.52%]">
@@ -54,11 +54,11 @@ function Year() {
 function Category() {
   return (
     <div className="absolute contents left-[692px] top-[1477px]" data-name="category">
-      <div className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[0] left-[711px] text-[#f2d6cc] text-[24px] top-[1520px] whitespace-nowrap">
+      <div className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[0] left-[711px] text-[#f2d6cc] text-[24px] top-[1520px] whitespace-nowrap">
         <p className="leading-[normal] mb-0">UX/UI Design</p>
         <p className="leading-[normal]">&nbsp;</p>
       </div>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[731px] text-[#f2d6cc] text-[24px] top-[1477px] whitespace-nowrap">Category</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[731px] text-[#f2d6cc] text-[24px] top-[1477px] whitespace-nowrap">Category</p>
       <div className="absolute left-[692px] overflow-clip size-[28px] top-[1479px]" data-name="Tag">
         <div className="absolute inset-[8.33%_11.79%_11.81%_8.33%]" data-name="Icon">
           <div className="absolute inset-[-4.47%]">
@@ -85,7 +85,7 @@ function UxUi() {
   return (
     <div className="absolute contents left-[85px] top-[1640px]" data-name="ux/ui">
       <div className="absolute bg-[rgba(122,92,84,0.82)] h-[58px] left-[85px] rounded-[10px] top-[1640px] w-[184px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[115px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[115px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">
         UX/UI Design
         <br aria-hidden="true" />
         <br aria-hidden="true" />
@@ -98,7 +98,7 @@ function Ecommerce() {
   return (
     <div className="absolute contents left-[291px] top-[1640px]" data-name="ecommerce">
       <div className="absolute bg-[rgba(122,92,84,0.82)] h-[58px] left-[291px] rounded-[10px] top-[1640px] w-[219px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[337px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">E-commerce</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[337px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">E-commerce</p>
     </div>
   );
 }
@@ -107,7 +107,7 @@ function MoblieDesign() {
   return (
     <div className="absolute contents left-[532px] top-[1640px]" data-name="moblie design">
       <div className="absolute bg-[rgba(122,92,84,0.82)] h-[58px] left-[532px] rounded-[10px] top-[1640px] w-[152px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[542px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">Mobile Design</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[542px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">Mobile Design</p>
     </div>
   );
 }
@@ -116,7 +116,7 @@ function Figma() {
   return (
     <div className="absolute contents left-[706px] top-[1640px]" data-name="figma">
       <div className="absolute bg-[rgba(122,92,84,0.82)] h-[58px] left-[706px] rounded-[10px] top-[1640px] w-[141px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[748px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">Figma</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[748px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">Figma</p>
     </div>
   );
 }
@@ -125,7 +125,7 @@ function DesignSystems() {
   return (
     <div className="absolute contents left-[869px] top-[1640px]" data-name="design systems">
       <div className="absolute bg-[rgba(122,92,84,0.82)] h-[58px] left-[869px] rounded-[10px] top-[1640px] w-[176px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[881px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">Design Systems</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[881px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">Design Systems</p>
     </div>
   );
 }
@@ -134,7 +134,7 @@ function UserResearch() {
   return (
     <div className="absolute contents left-[1067px] top-[1640px]" data-name="user research">
       <div className="absolute bg-[rgba(122,92,84,0.82)] h-[58px] left-[1067px] rounded-[10px] top-[1640px] w-[176px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[1087px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">User Research</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[1087px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">User Research</p>
     </div>
   );
 }
@@ -156,7 +156,7 @@ function Viewproject() {
   return (
     <a className="absolute contents cursor-pointer left-[86px] top-[1778px]" data-name="viewproject" href="https://www.figma.com/proto/a45jwV0CExQH2i0udqGl60/LUNE-luxury-brand?node-id=1-101&viewport=410%2C234%2C0.12&t=WONXzMaJIYB88MFV-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A101&page-id=0%3A1" target="_blank">
       <div className="absolute bg-[#d4896a] h-[58px] left-[86px] rounded-[10px] top-[1778px] w-[252px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold h-[40px] leading-[normal] left-[112px] text-[#7a5c54] text-[32px] top-[1787px] w-[199px]">View project</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-bold h-[40px] leading-[normal] left-[112px] text-[#7a5c54] text-[32px] top-[1787px] w-[199px]">View project</p>
     </a>
   );
 }
@@ -164,8 +164,8 @@ function Viewproject() {
 function Overview() {
   return (
     <div className="absolute contents leading-[normal] left-[76px] text-[#f2d6cc] text-[32px] top-[1929px]" data-name="overview">
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal left-[76px] top-[2015px] w-[1127px]">{`Most luxury brands invest everything into the shopping experience and abandon customers the moment they check out. Lune fixes that. It's a post-purchase mobile app that makes tracking, returns, and support feel as premium as the product itself — built around a warm Ivory, Noir, and Gold design system with Bodoni Moda and Jost typography.`}</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold left-[81px] top-[1929px] w-[1127px]">Overview</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal left-[76px] top-[2015px] w-[1127px]">{`Most luxury brands invest everything into the shopping experience and abandon customers the moment they check out. Lune fixes that. It's a post-purchase mobile app that makes tracking, returns, and support feel as premium as the product itself — built around a warm Ivory, Noir, and Gold design system with Bodoni Moda and Jost typography.`}</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-bold left-[81px] top-[1929px] w-[1127px]">Overview</p>
     </div>
   );
 }
@@ -173,8 +173,8 @@ function Overview() {
 function Challenge() {
   return (
     <div className="absolute contents leading-[normal] left-[72px] text-[#f2d6cc] text-[32px] top-[2295px]" data-name="challenge">
-      <p className="absolute font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold left-[76px] top-[2295px] w-[1127px]">Challenge</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal left-[72px] top-[2393px] w-[1127px]">{`Research across six Reddit communities revealed a consistent pattern — luxury customers feel anxious when tracking stops updating, frustrated when returns depend on a single associate, and betrayed when brands mishandle their personal data. They don't just buy a product. They buy an experience. And that experience currently ends at checkout.`}</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-bold left-[76px] top-[2295px] w-[1127px]">Challenge</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal left-[72px] top-[2393px] w-[1127px]">{`Research across six Reddit communities revealed a consistent pattern — luxury customers feel anxious when tracking stops updating, frustrated when returns depend on a single associate, and betrayed when brands mishandle their personal data. They don't just buy a product. They buy an experience. And that experience currently ends at checkout.`}</p>
     </div>
   );
 }
@@ -182,7 +182,7 @@ function Challenge() {
 function Wireframes() {
   return (
     <div className="absolute contents left-[72px] top-[2673px]" data-name="wireframes">
-      <p className="absolute font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[normal] left-[72px] text-[#f2d6cc] text-[32px] top-[2673px] w-[220px]">Wireframes</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-bold leading-[normal] left-[72px] text-[#f2d6cc] text-[32px] top-[2673px] w-[220px]">Wireframes</p>
       <div className="absolute h-[574px] left-[363px] top-[2790px] w-[392px]" data-name="WhatsApp Image 2026-03-28 at 15.46.31 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgWhatsAppImage20260328At1546311} />
@@ -205,8 +205,8 @@ function Wireframes() {
 function Solution() {
   return (
     <div className="absolute contents left-[76px] text-[#f2d6cc] text-[32px] top-[4089px]" data-name="solution">
-      <p className="absolute font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[normal] left-[76px] top-[4089px] w-[1127px]">Solution</p>
-      <div className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[0] left-[76px] top-[4209px] w-[1127px]">
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-bold leading-[normal] left-[76px] top-[4089px] w-[1127px]">Solution</p>
+      <div className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[0] left-[76px] top-[4209px] w-[1127px]">
         <p className="leading-[normal] mb-0">A fully prototyped mobile app with eight screens covering every critical post-purchase moment:</p>
         <ul className="list-disc">
           <li className="mb-0 ms-[48px]">
@@ -242,8 +242,8 @@ function Solution() {
 function Process1() {
   return (
     <div className="absolute contents leading-[normal] left-[76px] text-[#f2d6cc] text-[32px] top-[5049px]" data-name="process">
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal left-[76px] top-[5169px] w-[1127px]">Empathize → Define → Ideate → Prototype → Test. Qualitative research from six Reddit communities. Fifteen user insights. One focused HMW statement. Five concept directions. Low-fidelity hand-drawn wireframes. Full design system. High-fidelity Figma prototype.</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold left-[76px] top-[5049px] w-[1127px]">Process</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal left-[76px] top-[5169px] w-[1127px]">Empathize → Define → Ideate → Prototype → Test. Qualitative research from six Reddit communities. Fifteen user insights. One focused HMW statement. Five concept directions. Low-fidelity hand-drawn wireframes. Full design system. High-fidelity Figma prototype.</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-bold left-[76px] top-[5049px] w-[1127px]">Process</p>
     </div>
   );
 }
@@ -251,8 +251,8 @@ function Process1() {
 function WhatMakeItDiffertn() {
   return (
     <div className="absolute contents leading-[normal] left-[76px] text-[#f2d6cc] text-[32px] top-[5449px]" data-name="what make it differtn">
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal left-[76px] top-[5569px] w-[1127px]">No luxury app currently offers this end-to-end post-purchase experience. The order tracker is on the home screen. The support feels human. The privacy screen is proactive not buried. The entire app is designed for the customer who already bought — not the one still browsing.</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold left-[76px] top-[5449px] w-[1127px]">What Makes It Different</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal left-[76px] top-[5569px] w-[1127px]">No luxury app currently offers this end-to-end post-purchase experience. The order tracker is on the home screen. The support feels human. The privacy screen is proactive not buried. The entire app is designed for the customer who already bought — not the one still browsing.</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-bold left-[76px] top-[5449px] w-[1127px]">What Makes It Different</p>
     </div>
   );
 }

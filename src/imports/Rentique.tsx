@@ -14,10 +14,10 @@ function Header() {
         </svg>
       </div>
       <div className="absolute bg-[rgba(18,10,8,0.28)] h-[125px] left-0 opacity-48 top-0 w-[1280px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[21px] text-[#f2d6cc] text-[32px] top-[48px] w-[362px]">SHRIYA POTHUKUCHI</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[792px] text-[#f2d6cc] text-[32px] top-[41px] w-[104px]">WORK</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[1098px] text-[#f2d6cc] text-[32px] top-[41px] w-[118px]">{`ABOUT `}</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[922px] text-[#f2d6cc] text-[32px] top-[41px] w-[152px]">GALLERY</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[21px] text-[#f2d6cc] text-[32px] top-[48px] w-[362px]">SHRIYA POTHUKUCHI</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[792px] text-[#f2d6cc] text-[32px] top-[41px] w-[104px]">WORK</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[1098px] text-[#f2d6cc] text-[32px] top-[41px] w-[118px]">{`ABOUT `}</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[922px] text-[#f2d6cc] text-[32px] top-[41px] w-[152px]">GALLERY</p>
     </div>
   );
 }
@@ -25,8 +25,8 @@ function Header() {
 function Brand() {
   return (
     <div className="absolute contents left-0 top-[348px]" data-name="brand">
-      <p className="absolute font-['Clash_Display:Semibold',sans-serif] leading-[normal] left-[86px] not-italic text-[#d4896a] text-[64px] top-[1201px] w-[1120px]">Rentique — Circular Fashion Rental App</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal h-[75px] leading-[normal] left-[86px] text-[#f2d6cc] text-[20px] top-[1377px] w-[1069px]">An IoT-driven sustainable fashion rental app that merges style, technology, and environmental responsibility.</p>
+      <p className="absolute font-['Clash_Display',sans-serif] font-semibold leading-[normal] left-[86px] not-italic text-[#d4896a] text-[64px] top-[1201px] w-[1120px]">Rentique — Circular Fashion Rental App</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal h-[75px] leading-[normal] left-[86px] text-[#f2d6cc] text-[20px] top-[1377px] w-[1069px]">An IoT-driven sustainable fashion rental app that merges style, technology, and environmental responsibility.</p>
       <div className="absolute h-[807px] left-0 top-[348px] w-[1280px]" data-name="Screenshot 2026-04-03 at 6.59.06 PM 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgScreenshot20260403At65906Pm1} />
       </div>
@@ -37,8 +37,8 @@ function Brand() {
 function Year() {
   return (
     <div className="absolute contents left-[194px] top-[1477px]" data-name="year">
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[230px] text-[#f2d6cc] text-[24px] top-[1477px] whitespace-nowrap">{`Year `}</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[208px] text-[#f2d6cc] text-[24px] top-[1520px] whitespace-nowrap">2025</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[230px] text-[#f2d6cc] text-[24px] top-[1477px] whitespace-nowrap">{`Year `}</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[208px] text-[#f2d6cc] text-[24px] top-[1520px] whitespace-nowrap">2025</p>
       <div className="absolute left-[194px] opacity-68 overflow-clip size-[28px] top-[1477px]" data-name="Calendar">
         <div className="absolute inset-[8.33%_12.5%]" data-name="Icon">
           <div className="absolute inset-[-8.57%_-9.52%]">
@@ -55,8 +55,8 @@ function Year() {
 function Category() {
   return (
     <div className="absolute contents left-[692px] top-[1477px]" data-name="category">
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[731px] text-[#f2d6cc] text-[24px] top-[1477px] whitespace-nowrap">Category</p>
-      <div className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[0] left-[711px] text-[#f2d6cc] text-[24px] top-[1520px] whitespace-nowrap">
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[731px] text-[#f2d6cc] text-[24px] top-[1477px] whitespace-nowrap">Category</p>
+      <div className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[0] left-[711px] text-[#f2d6cc] text-[24px] top-[1520px] whitespace-nowrap">
         <p className="leading-[normal] mb-0">UX/UI Design</p>
         <p className="leading-[normal]">&nbsp;</p>
       </div>
@@ -86,7 +86,7 @@ function UxUi() {
   return (
     <div className="absolute contents left-[85px] top-[1640px]" data-name="ux/ui">
       <div className="absolute bg-[rgba(122,92,84,0.82)] h-[58px] left-[85px] rounded-[10px] top-[1640px] w-[184px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[115px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[115px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">
         UX/UI Design
         <br aria-hidden="true" />
         <br aria-hidden="true" />
@@ -99,7 +99,7 @@ function Sustainable() {
   return (
     <div className="absolute contents left-[291px] top-[1640px]" data-name="sustainable">
       <div className="absolute bg-[rgba(122,92,84,0.82)] h-[58px] left-[291px] rounded-[10px] top-[1640px] w-[219px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[307px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[307px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">
         Sustainable Fashion
         <br aria-hidden="true" />
         <br aria-hidden="true" />
@@ -112,7 +112,7 @@ function Iot() {
   return (
     <div className="absolute contents left-[536px] top-[1640px]" data-name="iot">
       <div className="absolute bg-[rgba(122,92,84,0.82)] h-[58px] left-[536px] rounded-[10px] top-[1640px] w-[152px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[597px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">IoT</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[597px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">IoT</p>
     </div>
   );
 }
@@ -121,7 +121,7 @@ function Figma() {
   return (
     <div className="absolute contents left-[717px] top-[1640px]" data-name="figma">
       <div className="absolute bg-[rgba(122,92,84,0.82)] h-[58px] left-[717px] rounded-[10px] top-[1640px] w-[141px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[759px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">Figma</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[759px] text-[#f2d6cc] text-[20px] top-[1656px] whitespace-nowrap">Figma</p>
     </div>
   );
 }
@@ -141,7 +141,7 @@ function Viewproject() {
   return (
     <a className="absolute contents cursor-pointer left-[86px] top-[1778px]" data-name="viewproject" href="https://www.figma.com/proto/LZ9fBZD7E9q4abMLuCjJpn/Untitled?node-id=1-3&page-id=0%3A1&starting-point-node-id=1%3A3&t=EL2n6r8BF0Ri1mqG-1" target="_blank">
       <div className="absolute bg-[#d4896a] h-[58px] left-[86px] rounded-[10px] top-[1778px] w-[252px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold h-[40px] leading-[normal] left-[112px] text-[#7a5c54] text-[32px] top-[1787px] w-[199px]">View project</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-bold h-[40px] leading-[normal] left-[112px] text-[#7a5c54] text-[32px] top-[1787px] w-[199px]">View project</p>
     </a>
   );
 }
@@ -149,8 +149,8 @@ function Viewproject() {
 function Overview() {
   return (
     <div className="absolute contents leading-[normal] left-[76px] text-[#f2d6cc] text-[32px] top-[1929px]" data-name="overview">
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal left-[76px] top-[2015px] w-[1127px]">Rentique is an IoT-driven sustainable fashion rental app that merges style, technology, and environmental responsibility into one seamless experience. Using RFID-tagged garments and smart racks, every rental becomes fully traceable — from cleaning history and wear count to real-time sustainability impact. Designed for younger consumers who want to look good without the guilt, Rentique makes circular fashion feel premium, personal, and effortless.</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold left-[81px] top-[1929px] w-[1127px]">Overview</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal left-[76px] top-[2015px] w-[1127px]">Rentique is an IoT-driven sustainable fashion rental app that merges style, technology, and environmental responsibility into one seamless experience. Using RFID-tagged garments and smart racks, every rental becomes fully traceable — from cleaning history and wear count to real-time sustainability impact. Designed for younger consumers who want to look good without the guilt, Rentique makes circular fashion feel premium, personal, and effortless.</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-bold left-[81px] top-[1929px] w-[1127px]">Overview</p>
     </div>
   );
 }
@@ -158,8 +158,8 @@ function Overview() {
 function Challenge() {
   return (
     <div className="absolute contents leading-[normal] left-[76px] text-[#f2d6cc] text-[32px] top-[2371px]" data-name="challenge">
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal left-[76px] top-[2471px] w-[1127px]">{`Current rental services are manual, opaque, and trust-deficient — users have no way of knowing how clean a garment really is, how many times it's been worn, or what environmental difference their choice actually makes. Sustainable fashion exists, but it won't be chosen unless it feels like an upgrade, not a compromise.`}</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold left-[76px] top-[2371px] w-[1127px]">Challenge</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal left-[76px] top-[2471px] w-[1127px]">{`Current rental services are manual, opaque, and trust-deficient — users have no way of knowing how clean a garment really is, how many times it's been worn, or what environmental difference their choice actually makes. Sustainable fashion exists, but it won't be chosen unless it feels like an upgrade, not a compromise.`}</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-bold left-[76px] top-[2371px] w-[1127px]">Challenge</p>
     </div>
   );
 }
@@ -167,7 +167,7 @@ function Challenge() {
 function Wireframes() {
   return (
     <div className="absolute contents left-[76px] top-[2812px]" data-name="wireframes">
-      <p className="absolute font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold leading-[normal] left-[76px] text-[#f2d6cc] text-[32px] top-[2812px] w-[220px]">Wireframes</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-bold leading-[normal] left-[76px] text-[#f2d6cc] text-[32px] top-[2812px] w-[220px]">Wireframes</p>
       <div className="absolute h-[342px] left-[133px] top-[2901px] w-[1013px]" data-name="Screenshot 2026-04-04 at 12.01.59 AM 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgScreenshot20260404At120159Am1} />
       </div>
@@ -178,8 +178,8 @@ function Wireframes() {
 function Solution() {
   return (
     <div className="absolute contents leading-[normal] left-[76px] text-[#f2d6cc] text-[32px] top-[3384px]" data-name="solution">
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal left-[76px] top-[3482px] w-[1127px]">{`A home screen that makes showing up easy — today's events and online friends are front and center, so there's always a reason to act. Joining an event takes just a few taps: pick in-person or virtual, see who's coming, confirm the location, and go. A weekly social summary celebrates progress and gently nudges users to keep engaging, turning a daunting habit into a rewarding one.`}</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold left-[76px] top-[3384px] w-[1127px]">Solution</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal left-[76px] top-[3482px] w-[1127px]">{`A home screen that makes showing up easy — today's events and online friends are front and center, so there's always a reason to act. Joining an event takes just a few taps: pick in-person or virtual, see who's coming, confirm the location, and go. A weekly social summary celebrates progress and gently nudges users to keep engaging, turning a daunting habit into a rewarding one.`}</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-bold left-[76px] top-[3384px] w-[1127px]">Solution</p>
     </div>
   );
 }

@@ -10,10 +10,10 @@ function Header() {
       </div>
       <div className="absolute bg-black h-[897px] left-0 opacity-21 top-0 w-[1280px]" data-name="overlay" />
       <div className="absolute bg-[rgba(242,214,204,0.38)] h-[125px] left-0 opacity-48 top-0 w-[1280px]" data-name="header" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[21px] text-[#f2d6cc] text-[32px] top-[48px] w-[362px]">SHRIYA POTHUKUCHI</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[792px] text-[#f2d6cc] text-[32px] top-[41px] w-[104px]">WORK</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[1098px] text-[#f2d6cc] text-[32px] top-[41px] w-[118px]">{`ABOUT `}</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[922px] text-[#f2d6cc] text-[32px] top-[41px] w-[152px]">GALLERY</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[21px] text-[#f2d6cc] text-[32px] top-[48px] w-[362px]">SHRIYA POTHUKUCHI</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[792px] text-[#f2d6cc] text-[32px] top-[41px] w-[104px]">WORK</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[1098px] text-[#f2d6cc] text-[32px] top-[41px] w-[118px]">{`ABOUT `}</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[922px] text-[#f2d6cc] text-[32px] top-[41px] w-[152px]">GALLERY</p>
     </div>
   );
 }
@@ -27,8 +27,8 @@ function Hero() {
         </svg>
       </div>
       <div className="absolute bg-[#120a08] h-[171px] left-[38px] opacity-88 top-[828px] w-[940px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium leading-[normal] left-[126px] text-[#f2d6cc] text-[20px] top-[913px] w-[842px]">Passionate designer and animator creating meaningful, culturally inspired experiences.</p>
-      <p className="absolute font-['Clash_Display:Bold',sans-serif] leading-[normal] left-[64px] not-italic text-[#d4896a] text-[64px] top-[828px] whitespace-nowrap">About me</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium leading-[normal] left-[126px] text-[#f2d6cc] text-[20px] top-[913px] w-[842px]">Passionate designer and animator creating meaningful, culturally inspired experiences.</p>
+      <p className="absolute font-['Clash_Display',sans-serif] leading-[normal] left-[64px] not-italic text-[#d4896a] text-[64px] top-[828px] whitespace-nowrap">About me</p>
     </div>
   );
 }
@@ -49,7 +49,7 @@ function DesignSystem() {
   return (
     <div className="absolute contents left-[88px] top-[2204px]" data-name="design system">
       <div className="absolute bg-[rgba(122,92,84,0.82)] h-[58px] left-[88px] rounded-[10px] top-[2204px] w-[233px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal h-[28px] leading-[normal] left-[108px] text-[#f2d6cc] text-[24px] top-[2217px] w-[184px]">Design Systems</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal h-[28px] leading-[normal] left-[108px] text-[#f2d6cc] text-[24px] top-[2217px] w-[184px]">Design Systems</p>
     </div>
   );
 }
@@ -58,7 +58,7 @@ function MotionGraphic() {
   return (
     <div className="absolute contents left-[343px] top-[2204px]" data-name="motion graphic">
       <div className="absolute bg-[rgba(122,92,84,0.82)] h-[58px] left-[343px] rounded-[10px] top-[2204px] w-[233px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal h-[28px] leading-[normal] left-[360px] text-[#f2d6cc] text-[24px] top-[2217px] w-[198px]">Motion Graphics</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal h-[28px] leading-[normal] left-[360px] text-[#f2d6cc] text-[24px] top-[2217px] w-[198px]">Motion Graphics</p>
     </div>
   );
 }
@@ -67,7 +67,7 @@ function Component3DAnimation() {
   return (
     <div className="absolute contents left-[598px] top-[2204px]" data-name="3d animation">
       <div className="absolute bg-[rgba(122,92,84,0.82)] h-[58px] left-[598px] rounded-[10px] top-[2204px] w-[233px]" />
-      <div className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal h-[28px] leading-[0] left-[640px] text-[#f2d6cc] text-[24px] top-[2219px] w-[164px]">
+      <div className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal h-[28px] leading-[0] left-[640px] text-[#f2d6cc] text-[24px] top-[2219px] w-[164px]">
         <p className="leading-[normal] mb-0">3D Animation</p>
         <p className="leading-[normal]">&nbsp;</p>
       </div>
@@ -79,7 +79,7 @@ function AiInDesign() {
   return (
     <div className="absolute contents left-[853px] top-[2202px]" data-name="ai in design">
       <div className="absolute bg-[rgba(122,92,84,0.82)] h-[58px] left-[853px] rounded-[10px] top-[2202px] w-[233px]" />
-      <div className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal h-[28px] leading-[0] left-[887px] text-[#f2d6cc] text-[24px] top-[2217px] w-[164px]">
+      <div className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal h-[28px] leading-[0] left-[887px] text-[#f2d6cc] text-[24px] top-[2217px] w-[164px]">
         <p className="leading-[normal] mb-0">AI in Design</p>
         <p className="leading-[normal]">&nbsp;</p>
       </div>
@@ -90,7 +90,7 @@ function AiInDesign() {
 function CureentlyExploring() {
   return (
     <div className="absolute contents left-[79px] top-[2144px]" data-name="cureently exploring">
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal h-[28px] leading-[normal] left-[79px] text-[#120a08] text-[24px] top-[2144px] w-[227px]">Currently exploring</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal h-[28px] leading-[normal] left-[79px] text-[#120a08] text-[24px] top-[2144px] w-[227px]">Currently exploring</p>
       <DesignSystem />
       <MotionGraphic />
       <Component3DAnimation />
@@ -175,7 +175,7 @@ function LinksPicAboutMw() {
   return (
     <div className="absolute contents left-[21px] top-[1154px]" data-name="links, pic, about mw">
       <PicAndLinks />
-      <div className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal h-[914px] leading-[0] left-[380px] text-[#120a08] text-[32px] top-[1183px] w-[861px] whitespace-pre-wrap">
+      <div className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal h-[914px] leading-[0] left-[380px] text-[#120a08] text-[32px] top-[1183px] w-[861px] whitespace-pre-wrap">
         <p className="leading-[normal] mb-0">{` I'm Shriya — a UI/UX and graphic designer with a passion for design that feels both intentional and alive. My work spans brand identity, interaction design, digital illustration, and 3D animation, and I bring the same care to every medium: making things that look beautiful and actually work for people.`}</p>
         <p className="leading-[normal] mb-0">&nbsp;</p>
         <p className="leading-[normal] mb-0">{`My journey started with a fascination for visual storytelling — from manga-style illustrations to animating characters in Maya to designing full app experiences in Figma. I believe the best design doesn't just solve a problem, it connects with the person on the other side of the screen. Whether I'm building a sustainable fashion app, crafting a brand identity inspired by Indian aesthetics, or rendering a 3D scene from scratch, I lead with research, culture, and a deep attention to detail.`}</p>
@@ -191,12 +191,12 @@ function DesignTools() {
   return (
     <div className="absolute contents left-[64px] top-[2531px]" data-name="design tools">
       <div className="absolute bg-[rgba(212,137,106,0.44)] h-[327px] left-[64px] rounded-[10px] top-[2531px] w-[519px]" />
-      <p className="absolute font-['Clash_Display:Bold',sans-serif] h-[60px] leading-[normal] left-[84px] not-italic text-[#d4896a] text-[48px] top-[2547px] w-[332px]">Design Tools</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium h-[42px] leading-[normal] left-[93px] text-[#f2d6cc] text-[24px] top-[2625px] w-[109px]">{` · Figma `}</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium h-[42px] leading-[normal] left-[90px] text-[#f2d6cc] text-[24px] top-[2666px] w-[233px]">{` · Adobe Photoshop`}</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium h-[42px] leading-[normal] left-[90px] text-[#f2d6cc] text-[24px] top-[2708px] w-[245px]">{` · Adobe After Effects`}</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium h-[42px] leading-[normal] left-[93px] text-[#f2d6cc] text-[24px] top-[2750px] w-[150px]">{` · Procreate`}</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium h-[42px] leading-[normal] left-[93px] text-[#f2d6cc] text-[24px] top-[2789px] w-[150px]">{` · Canva`}</p>
+      <p className="absolute font-['Clash_Display',sans-serif] h-[60px] leading-[normal] left-[84px] not-italic text-[#d4896a] text-[48px] top-[2547px] w-[332px]">Design Tools</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[42px] leading-[normal] left-[93px] text-[#f2d6cc] text-[24px] top-[2625px] w-[109px]">{` · Figma `}</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[42px] leading-[normal] left-[90px] text-[#f2d6cc] text-[24px] top-[2666px] w-[233px]">{` · Adobe Photoshop`}</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[42px] leading-[normal] left-[90px] text-[#f2d6cc] text-[24px] top-[2708px] w-[245px]">{` · Adobe After Effects`}</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[42px] leading-[normal] left-[93px] text-[#f2d6cc] text-[24px] top-[2750px] w-[150px]">{` · Procreate`}</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[42px] leading-[normal] left-[93px] text-[#f2d6cc] text-[24px] top-[2789px] w-[150px]">{` · Canva`}</p>
     </div>
   );
 }
@@ -205,12 +205,12 @@ function AniamtionAnd3D() {
   return (
     <div className="absolute contents left-[676px] top-[2531px]" data-name="aniamtion and 3d">
       <div className="absolute bg-[rgba(212,137,106,0.44)] h-[330px] left-[676px] rounded-[10px] top-[2531px] w-[555px]" />
-      <p className="absolute font-['Clash_Display:Bold',sans-serif] h-[70px] leading-[normal] left-[713px] not-italic text-[#d4896a] text-[48px] top-[2541px] w-[518px]">{`Animation & 3D`}</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium h-[35px] leading-[normal] left-[733px] text-[#f2d6cc] text-[24px] top-[2621px] w-[116px]">· Maya</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium h-[35px] leading-[normal] left-[733px] text-[#f2d6cc] text-[24px] top-[2666px] w-[116px]">· Unity</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium h-[35px] leading-[normal] left-[733px] text-[#f2d6cc] text-[24px] top-[2708px] w-[378px]">{`· 3D Modelling & Rigging`}</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium h-[35px] leading-[normal] left-[733px] text-[#f2d6cc] text-[24px] top-[2750px] w-[181px]">· Rendering</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium h-[35px] leading-[normal] left-[733px] text-[#f2d6cc] text-[24px] top-[2792px] w-[268px]">· Motion Graphics</p>
+      <p className="absolute font-['Clash_Display',sans-serif] h-[70px] leading-[normal] left-[713px] not-italic text-[#d4896a] text-[48px] top-[2541px] w-[518px]">{`Animation & 3D`}</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[35px] leading-[normal] left-[733px] text-[#f2d6cc] text-[24px] top-[2621px] w-[116px]">· Maya</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[35px] leading-[normal] left-[733px] text-[#f2d6cc] text-[24px] top-[2666px] w-[116px]">· Unity</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[35px] leading-[normal] left-[733px] text-[#f2d6cc] text-[24px] top-[2708px] w-[378px]">{`· 3D Modelling & Rigging`}</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[35px] leading-[normal] left-[733px] text-[#f2d6cc] text-[24px] top-[2750px] w-[181px]">· Rendering</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[35px] leading-[normal] left-[733px] text-[#f2d6cc] text-[24px] top-[2792px] w-[268px]">· Motion Graphics</p>
     </div>
   );
 }
@@ -219,11 +219,11 @@ function Deve() {
   return (
     <div className="absolute contents left-[64px] top-[2938px]" data-name="deve">
       <div className="absolute bg-[rgba(212,137,106,0.44)] h-[280px] left-[64px] rounded-[10px] top-[2938px] w-[519px]" />
-      <p className="absolute font-['Clash_Display:Bold',sans-serif] h-[60px] leading-[normal] left-[84px] not-italic text-[#d4896a] text-[48px] top-[2950px] w-[368px]">Development</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium h-[30px] leading-[normal] left-[93px] text-[#f2d6cc] text-[24px] top-[3072px] w-[87px]">· HTML</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium h-[30px] leading-[normal] left-[94px] text-[#f2d6cc] text-[24px] top-[3111px] w-[87px]">· CSS</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium h-[30px] leading-[normal] left-[93px] text-[#f2d6cc] text-[24px] top-[3153px] w-[116px]">· Shopify</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium h-[30px] leading-[normal] left-[93px] text-[#f2d6cc] text-[24px] top-[3032px] w-[244px]">· Responsive Layouts</p>
+      <p className="absolute font-['Clash_Display',sans-serif] h-[60px] leading-[normal] left-[84px] not-italic text-[#d4896a] text-[48px] top-[2950px] w-[368px]">Development</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[30px] leading-[normal] left-[93px] text-[#f2d6cc] text-[24px] top-[3072px] w-[87px]">· HTML</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[30px] leading-[normal] left-[94px] text-[#f2d6cc] text-[24px] top-[3111px] w-[87px]">· CSS</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[30px] leading-[normal] left-[93px] text-[#f2d6cc] text-[24px] top-[3153px] w-[116px]">· Shopify</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[30px] leading-[normal] left-[93px] text-[#f2d6cc] text-[24px] top-[3032px] w-[244px]">· Responsive Layouts</p>
     </div>
   );
 }
@@ -232,18 +232,18 @@ function Other() {
   return (
     <div className="absolute contents left-[676px] top-[2938px]" data-name="other">
       <div className="absolute bg-[rgba(212,137,106,0.44)] h-[323px] left-[676px] rounded-[10px] top-[2938px] w-[555px]" />
-      <p className="absolute font-['Clash_Display:Bold',sans-serif] h-[60px] leading-[normal] left-[713px] not-italic text-[#d4896a] text-[48px] top-[2950px] w-[157px]">Other</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium h-[30px] leading-[normal] left-[733px] text-[#f2d6cc] text-[24px] top-[3027px] w-[182px]">· User Research</p>
-      <div className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium h-[30px] leading-[0] left-[733px] text-[#f2d6cc] text-[24px] top-[3069px] w-[345px]">
+      <p className="absolute font-['Clash_Display',sans-serif] h-[60px] leading-[normal] left-[713px] not-italic text-[#d4896a] text-[48px] top-[2950px] w-[157px]">Other</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[30px] leading-[normal] left-[733px] text-[#f2d6cc] text-[24px] top-[3027px] w-[182px]">· User Research</p>
+      <div className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[30px] leading-[0] left-[733px] text-[#f2d6cc] text-[24px] top-[3069px] w-[345px]">
         <p className="leading-[normal] mb-0">{`· Wireframing & Prototyping`}</p>
         <p className="leading-[normal]">&nbsp;</p>
       </div>
-      <p className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium h-[30px] leading-[normal] left-[733px] text-[#f2d6cc] text-[24px] top-[3111px] w-[285px]">· Brand Identity Systems</p>
-      <div className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium h-[30px] leading-[0] left-[736px] text-[#f2d6cc] text-[24px] top-[3153px] w-[230px]">
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[30px] leading-[normal] left-[733px] text-[#f2d6cc] text-[24px] top-[3111px] w-[285px]">· Brand Identity Systems</p>
+      <div className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[30px] leading-[0] left-[736px] text-[#f2d6cc] text-[24px] top-[3153px] w-[230px]">
         <p className="leading-[normal] mb-0">· Visual Storytelling</p>
         <p className="leading-[normal]">&nbsp;</p>
       </div>
-      <div className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium h-[30px] leading-[0] left-[733px] text-[#f2d6cc] text-[24px] top-[3196px] w-[334px]">
+      <div className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[30px] leading-[0] left-[733px] text-[#f2d6cc] text-[24px] top-[3196px] w-[334px]">
         <p className="leading-[normal] mb-0">{`· Color Theory & Typography`}</p>
         <p className="leading-[normal]">&nbsp;</p>
       </div>
@@ -265,7 +265,7 @@ function Skills() {
 function SkillsAndTools() {
   return (
     <div className="absolute contents left-[64px] top-[2382px]" data-name="skills and tools">
-      <p className="absolute font-['Clash_Display:Bold',sans-serif] leading-[normal] left-[76px] not-italic text-[#f2d6cc] text-[64px] top-[2382px] whitespace-nowrap">Skills and Tools</p>
+      <p className="absolute font-['Clash_Display',sans-serif] leading-[normal] left-[76px] not-italic text-[#f2d6cc] text-[64px] top-[2382px] whitespace-nowrap">Skills and Tools</p>
       <Skills />
     </div>
   );
@@ -275,7 +275,7 @@ function GetInTouchButton() {
   return (
     <div className="absolute contents left-[531px] top-[3704px]" data-name="get in touch button">
       <div className="absolute bg-[#d4896a] h-[58px] left-[531px] rounded-[10px] top-[3704px] w-[252px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Bold',sans-serif] font-bold h-[40px] leading-[normal] left-[584px] text-[#7a5c54] text-[32px] top-[3713px] w-[199px]">Get in touch</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-bold h-[40px] leading-[normal] left-[584px] text-[#7a5c54] text-[32px] top-[3713px] w-[199px]">Get in touch</p>
       <a className="absolute block cursor-pointer left-[540px] overflow-clip size-[42px] top-[3714px]" data-name="mail" href="mailto:shriyapothukuchi3@gmail.com" target="_blank">
         <div className="absolute inset-[16.67%_8.33%]" data-name="icon">
           <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 35 28">
@@ -296,8 +296,8 @@ function EndingBox() {
         </svg>
       </div>
       <div className="absolute bg-[#120a08] h-[333px] left-[131px] opacity-88 rounded-[10px] top-[3447px] w-[1078px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium h-[88px] leading-[normal] left-[310px] text-[#f2d6cc] text-[24px] top-[3604px] w-[776px]">{`I'm currently open to internship and full-time opportunities. Feel free to reach out if you'd like to collaborate.`}</p>
-      <p className="absolute font-['Clash_Display:Semibold',sans-serif] leading-[normal] left-[418px] not-italic text-[#f2d6cc] text-[48px] top-[3511px] whitespace-nowrap">{`Let's Work Together`}</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[88px] leading-[normal] left-[310px] text-[#f2d6cc] text-[24px] top-[3604px] w-[776px]">{`I'm currently open to internship and full-time opportunities. Feel free to reach out if you'd like to collaborate.`}</p>
+      <p className="absolute font-['Clash_Display',sans-serif] font-semibold leading-[normal] left-[418px] not-italic text-[#f2d6cc] text-[48px] top-[3511px] whitespace-nowrap">{`Let's Work Together`}</p>
       <GetInTouchButton />
     </div>
   );

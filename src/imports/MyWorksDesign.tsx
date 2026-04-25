@@ -11,7 +11,7 @@ function Bar() {
         </svg>
       </div>
       <div className="absolute bg-[#120a08] h-[163px] left-[63px] opacity-88 rounded-[10px] top-[444px] w-[524px]" />
-      <div className="absolute font-['Clash_Display:Bold',sans-serif] h-[108px] leading-[0] left-[107px] not-italic text-[#d4896a] text-[64px] top-[477px] w-[224px]">
+      <div className="absolute font-['Clash_Display',sans-serif] h-[108px] leading-[0] left-[107px] not-italic text-[#d4896a] text-[64px] top-[477px] w-[224px]">
         <p className="leading-[normal] mb-0">Design</p>
         <p className="leading-[normal]">&nbsp;</p>
       </div>
@@ -32,10 +32,10 @@ function Header() {
         </div>
       </div>
       <div className="absolute bg-[rgba(18,10,8,0.28)] h-[125px] left-0 opacity-48 top-0 w-[1280px]" data-name="header" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[21px] text-[#f2d6cc] text-[32px] top-[48px] w-[362px]">SHRIYA POTHUKUCHI</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[792px] text-[#f2d6cc] text-[32px] top-[41px] w-[104px]">WORK</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[1098px] text-[#f2d6cc] text-[32px] top-[41px] w-[118px]">{`ABOUT `}</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[922px] text-[#f2d6cc] text-[32px] top-[41px] w-[152px]">GALLERY</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[21px] text-[#f2d6cc] text-[32px] top-[48px] w-[362px]">SHRIYA POTHUKUCHI</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[792px] text-[#f2d6cc] text-[32px] top-[41px] w-[104px]">WORK</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[1098px] text-[#f2d6cc] text-[32px] top-[41px] w-[118px]">{`ABOUT `}</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[922px] text-[#f2d6cc] text-[32px] top-[41px] w-[152px]">GALLERY</p>
     </div>
   );
 }
@@ -43,8 +43,8 @@ function Header() {
 function Heading() {
   return (
     <div className="absolute contents leading-[normal] left-[89px] top-[185px]" data-name="heading">
-      <p className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium left-[133px] text-[#f2d6cc] text-[24px] top-[264px] w-[1133px]">A collection of UX/UI design, illustration, and animation projects exploring thoughtful interaction, visual storytelling, and motion.</p>
-      <p className="absolute font-['Clash_Display:Bold',sans-serif] left-[89px] not-italic text-[#120a08] text-[64px] top-[185px] whitespace-nowrap">{`My works `}</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium left-[133px] text-[#f2d6cc] text-[24px] top-[264px] w-[1133px]">A collection of UX/UI design, illustration, and animation projects exploring thoughtful interaction, visual storytelling, and motion.</p>
+      <p className="absolute font-['Clash_Display',sans-serif] left-[89px] not-italic text-[#120a08] text-[64px] top-[185px] whitespace-nowrap">{`My works `}</p>
     </div>
   );
 }
@@ -53,8 +53,8 @@ function Convergence() {
   return (
     <div className="absolute contents left-[44px] top-[744px]" data-name="convergence">
       <div className="absolute bg-[rgba(212,137,106,0.44)] h-[233px] left-[44px] rounded-[10px] top-[1295px] w-[580px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[58px] text-[#f2d6cc] text-[20px] top-[1438px] w-[557px]">A hand-drawn black and white illustration collage composed of multiple manga-inspired character studies and scenes.</p>
-      <p className="absolute font-['Clash_Display:Semibold',sans-serif] leading-[normal] left-[58px] not-italic text-[#d4896a] text-[32px] top-[1338px] w-[539px]">Convergence — Manga-Style Illustration Collage</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[58px] text-[#f2d6cc] text-[20px] top-[1438px] w-[557px]">A hand-drawn black and white illustration collage composed of multiple manga-inspired character studies and scenes.</p>
+      <p className="absolute font-['Clash_Display',sans-serif] font-semibold leading-[normal] left-[58px] not-italic text-[#d4896a] text-[32px] top-[1338px] w-[539px]">Convergence — Manga-Style Illustration Collage</p>
       <div className="absolute left-[555px] overflow-clip size-[60px] top-[1330px]" data-name="Arrow right">
         <div className="absolute inset-[20.83%]" data-name="Icon">
           <div className="absolute inset-[-3.57%]">
@@ -75,8 +75,8 @@ function ColorFinal() {
   return (
     <div className="absolute contents left-[656px] top-[744px]" data-name="color final">
       <div className="absolute bg-[rgba(212,137,106,0.44)] h-[222px] left-[656px] rounded-[10px] top-[1306px] w-[580px]" />
-      <p className="absolute font-['Clash_Display:Semibold',sans-serif] leading-[normal] left-[672px] not-italic text-[#d4896a] text-[32px] top-[1338px] w-[539px]">Cumbia — Digital Illustration</p>
-      <div className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal h-[75px] leading-[0] left-[672px] text-[#f2d6cc] text-[20px] top-[1430px] w-[552px] whitespace-pre-wrap">
+      <p className="absolute font-['Clash_Display',sans-serif] font-semibold leading-[normal] left-[672px] not-italic text-[#d4896a] text-[32px] top-[1338px] w-[539px]">Cumbia — Digital Illustration</p>
+      <div className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal h-[75px] leading-[0] left-[672px] text-[#f2d6cc] text-[20px] top-[1430px] w-[552px] whitespace-pre-wrap">
         <p className="leading-[normal] mb-0">A bold digital illustration capturing the energy and motion of traditional Latin dance.</p>
         <p className="leading-[normal] mb-0">&nbsp;</p>
         <p className="leading-[normal]">&nbsp;</p>
