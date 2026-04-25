@@ -15,6 +15,7 @@ import AnimationProjectDetail from "./components/AnimationProjectDetail";
 import { NavigationOverlay } from "./components/NavigationOverlay";
 import CumbiaProject from "./components/CumbiaProject";
 import GalleryPage from "./components/GalleryPage";
+import ResponsiveCanvasPage from "./components/ResponsiveCanvasPage";
 
 // ── Transparent clickable overlay helper ─────────────────────────────────────
 
@@ -33,8 +34,8 @@ function TransparentLink({ to, style }: { to: string; style: CSSProperties }) {
 
 function HomepagePage() {
   return (
-    <div className="w-full h-screen overflow-y-auto overflow-x-auto">
-      <div style={{ height: "3800px", minWidth: "1280px", position: "relative" }}>
+    <ResponsiveCanvasPage height={3800}>
+      <div style={{ width: 1280, height: 3800, position: "relative" }}>
         <Homepage />
         <NavigationOverlay />
         <TransparentLink to="/work" style={{ left: 480, top: 730, width: 242, height: 99 }} />
@@ -42,39 +43,39 @@ function HomepagePage() {
         <TransparentLink to="/work/design" style={{ left: 34, top: 2800, width: 581, height: 280 }} />
         <TransparentLink to="/work/animation" style={{ left: 664, top: 2799, width: 581, height: 280 }} />
       </div>
-    </div>
+    </ResponsiveCanvasPage>
   );
 }
 
 function AboutMePage() {
   return (
-    <div className="w-full h-screen overflow-y-auto overflow-x-auto">
-      <div style={{ height: "3950px", minWidth: "1280px", position: "relative" }}>
+    <ResponsiveCanvasPage height={3950}>
+      <div style={{ width: 1280, height: 3950, position: "relative" }}>
         <AboutMe />
         <NavigationOverlay />
       </div>
-    </div>
+    </ResponsiveCanvasPage>
   );
 }
 
 function WorkPage() {
   return (
-    <div className="w-full h-screen overflow-y-auto overflow-x-auto">
-      <div style={{ height: "2300px", minWidth: "1280px", position: "relative" }}>
+    <ResponsiveCanvasPage height={2300}>
+      <div style={{ width: 1280, height: 2300, position: "relative" }}>
         <Work />
         <NavigationOverlay showBack backTo="/" />
         <TransparentLink to="/work/uxui" style={{ left: 99, top: 485, width: 747, height: 385 }} />
         <TransparentLink to="/work/design" style={{ left: 490, top: 1071, width: 747, height: 385 }} />
         <TransparentLink to="/work/animation" style={{ left: 65, top: 1657, width: 747, height: 425 }} />
       </div>
-    </div>
+    </ResponsiveCanvasPage>
   );
 }
 
 function MyWorksPage() {
   return (
-    <div className="w-full h-screen overflow-y-auto overflow-x-auto">
-      <div style={{ height: "2600px", minWidth: "1280px", position: "relative" }}>
+        <ResponsiveCanvasPage height={2600}>
+      <div style={{ width: 1280, height: 2600, position: "relative" }}>
         <MyWorks />
         <NavigationOverlay showBack backTo="/work" />
         <TransparentLink to="/work/uxui/lune" style={{ left: 44, top: 744, width: 580, height: 784 }} />
@@ -82,14 +83,14 @@ function MyWorksPage() {
         <TransparentLink to="/work/uxui/rentique" style={{ left: 45, top: 1590, width: 580, height: 757 }} />
         <TransparentLink to="/work/uxui/meetup" style={{ left: 656, top: 1590, width: 580, height: 757 }} />
       </div>
-    </div>
+    </ResponsiveCanvasPage>
   );
 }
 
 function MyWorksDesignPage() {
   return (
-    <div className="w-full h-screen overflow-y-auto overflow-x-auto">
-      <div style={{ height: "1700px", minWidth: "1280px", position: "relative" }}>
+        <ResponsiveCanvasPage height={1700}>
+      <div style={{ width: 1280, height: 1700, position: "relative" }}>
         <div style={{ position: "absolute", inset: 0, width: "1280px", overflowX: "clip" }}>
           <MyWorksDesign />
         </div>
@@ -97,72 +98,82 @@ function MyWorksDesignPage() {
         <TransparentLink to="/work/design/convergence" style={{ left: 44, top: 744, width: 580, height: 784 }} />
         <TransparentLink to="/work/design/cumbia" style={{ left: 656, top: 744, width: 580, height: 784 }} />
       </div>
-    </div>
+    </ResponsiveCanvasPage>
   );
 }
 
 function MeetUpPage() {
   return (
-    <div className="w-full h-screen overflow-y-auto overflow-x-auto">
-      <div style={{ height: "5300px", minWidth: "1280px", position: "relative" }}>
+        <ResponsiveCanvasPage height={5300}>
+      <div style={{ width: 1280, height: 5300, position: "relative" }}>
         <MeetUp />
         <NavigationOverlay showBack backTo="/work/uxui" />
       </div>
-    </div>
+    </ResponsiveCanvasPage>
   );
 }
 
 function RentiquePage() {
   return (
-    <div className="w-full h-screen overflow-y-auto overflow-x-auto">
-      <div style={{ height: "4700px", minWidth: "1280px", position: "relative" }}>
+        <ResponsiveCanvasPage height={4700}>
+      <div style={{ width: 1280, height: 4700, position: "relative" }}>
         <Rentique />
         <NavigationOverlay showBack backTo="/work/uxui" />
       </div>
-    </div>
+    </ResponsiveCanvasPage>
   );
 }
 
 function CoffeePage() {
   return (
-    <div className="w-full h-screen overflow-y-auto overflow-x-auto">
-      <div style={{ height: "5900px", minWidth: "1280px", position: "relative" }}>
+        <ResponsiveCanvasPage height={5900}>
+      <div style={{ width: 1280, height: 5900, position: "relative" }}>
         <Coffee />
         <NavigationOverlay showBack backTo="/work/uxui" />
       </div>
-    </div>
+    </ResponsiveCanvasPage>
   );
 }
 
 function LunePage() {
   return (
-    <div className="w-full h-screen overflow-y-auto overflow-x-auto">
-      <div style={{ height: "6700px", minWidth: "1280px", position: "relative" }}>
+        <ResponsiveCanvasPage height={6700}>
+      <div style={{ width: 1280, height: 6700, position: "relative" }}>
         <Lune />
         <NavigationOverlay showBack backTo="/work/uxui" />
       </div>
-    </div>
+    </ResponsiveCanvasPage>
   );
 }
 
 function ConvergencePage() {
   return (
-    <div className="w-full h-screen overflow-y-auto overflow-x-auto">
-      <div style={{ height: "5100px", minWidth: "1280px", position: "relative" }}>
+        <ResponsiveCanvasPage height={5100}>
+      <div style={{ width: 1280, height: 5100, position: "relative" }}>
         <Convergence />
         <NavigationOverlay showBack backTo="/work/design" />
       </div>
-    </div>
+    </ResponsiveCanvasPage>
   );
 }
 
 function CumbiaPage() {
   return (
-    <div className="w-full h-screen overflow-y-auto overflow-x-auto">
-      <div style={{ height: "5100px", minWidth: "1280px", position: "relative" }}>
+   <ResponsiveCanvasPage height={5100}>
+      <div style={{ width: 1280, height: 5100, position: "relative" }}>
         <CumbiaProject />
       </div>
-    </div>
+    </ResponsiveCanvasPage>
+  );
+}
+
+function GalleryCanvasPage() {
+  return (
+    <ResponsiveCanvasPage height={2650}>
+      <div style={{ width: 1280, height: 2650, position: "relative" }}>
+        <GalleryPage />
+      </div>
+    </ResponsiveCanvasPage>
   );
 }
 
@@ -255,6 +266,6 @@ export const router = createBrowserRouter([
   { path: "/work/animation/ball-bounce", Component: BallBouncePage },
   { path: "/work/animation/peg-jump", Component: PegJumpPage },
   { path: "/work/animation/walk-cycle", Component: WalkCyclePage },
-  { path: "/gallery", Component: GalleryPage },
+  { path: "/gallery", Component: GalleryCanvasPage },
   { path: "*", Component: HomepagePage },
 ]);

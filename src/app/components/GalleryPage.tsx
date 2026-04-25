@@ -95,7 +95,7 @@ function Bar() {
         </svg>
       </div>
       <div className="absolute bg-[#120a08] h-[163px] left-[63px] opacity-88 rounded-[10px] top-[444px] w-[524px]" />
-      <div className="absolute font-['Clash_Display:Bold',sans-serif] h-[108px] leading-[0] left-[107px] not-italic text-[#d4896a] text-[64px] top-[477px] w-[350px]">
+      <div className="absolute font-[var(--font-heading)] h-[108px] leading-[0] left-[107px] not-italic text-[#d4896a] text-[64px] top-[477px] w-[350px]">
         <p className="leading-[normal] mb-0">Gallery</p>
       </div>
     </div>
@@ -106,11 +106,11 @@ function Heading() {
   return (
     <div className="absolute contents leading-[normal] left-[89px] top-[185px]" data-name="heading">
       {/* "My " in dark (punches through the terracotta art) */}
-      <p className="absolute font-['Clash_Display:Bold',sans-serif] left-[89px] not-italic text-[#120a08] text-[64px] top-[185px] whitespace-nowrap">
+      <p className="absolute font-[var(--font-heading)] left-[89px] not-italic text-[#120a08] text-[64px] top-[185px] whitespace-nowrap">
         My works
       </p>
       {/* "works" in cream overlaid on top to create two-tone effect */}
-      <p className="absolute font-['Clash_Display:Bold',sans-serif] left-[89px] not-italic text-[#f2d6cc] text-[64px] top-[185px] whitespace-nowrap">
+      <p className="absolute font-[var(--font-heading)] left-[89px] not-italic text-[#f2d6cc] text-[64px] top-[185px] whitespace-nowrap">
         {"My\u00A0"}
       </p>
       <p className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium left-[133px] text-[#f2d6cc] text-[24px] top-[264px] w-[1100px]">
@@ -147,7 +147,7 @@ function Tile({ item, onClick }: TileProps) {
         style={{ background: "linear-gradient(to top, rgba(18,10,8,0.88) 0%, rgba(18,10,8,0.3) 50%, transparent 100%)", padding: "20px 22px" }}
       >
         <p
-          className="font-['Clash_Display:Semibold',sans-serif] not-italic leading-[normal] text-[#d4896a]"
+          className="font-[var(--font-heading)] not-italic leading-[normal] text-[#d4896a]"
           style={{ fontSize: 20 }}
         >
           {item.title}
@@ -204,7 +204,7 @@ function Lightbox({ item, onClose }: LightboxProps) {
         <div className="mt-[18px] w-full flex items-center justify-between" style={{ padding: "0 4px" }}>
           <div>
             <p
-              className="font-['Clash_Display:Semibold',sans-serif] not-italic leading-[normal] text-[#d4896a]"
+              className="font-[var(--font-heading)] not-italic leading-[normal] text-[#d4896a]"
               style={{ fontSize: 24 }}
             >
               {item.title}
@@ -244,64 +244,53 @@ export default function GalleryPage() {
 
   return (
     <>
-      <div className="w-full h-screen overflow-y-auto overflow-x-auto">
-        {/* Inner canvas — same pattern as MyWorksAnimation */}
-        <div style={{ height: "2650px", minWidth: "1280px", position: "relative" }}>
-          <div className="bg-[#120a08] relative size-full" data-name="Gallery">
+      <div
+        className="bg-[#120a08] relative w-[1280px]"
+        style={{ height: 2650 }}
+        data-name="Gallery"
+      >
+        <Header />
+        <Bar />
 
-            {/* Decorative art header (same as other pages) */}
-            <Header />
-
-            {/* Gallery label bar */}
-            <Bar />
-
-            {/* Page title */}
-            {/* <Heading /> */}
-
-            {/* Back chevron visual */}
-            <div className="absolute left-[-1px] overflow-clip size-[80px] top-[184px]">
-              <div className="absolute bottom-1/4 left-[33.33%] right-[35.83%] top-1/4">
-                <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 24.6667 40">
-                  <path d={svgPaths.p70c62c0} fill="#1D1B20" />
-                </svg>
-              </div>
-            </div>
-
-            {/* ── 3-column collage grid ── */}
-            {/* col width = (1280 - 44 - 44 - 20 - 20) / 3 = 384px, gap = 20px */}
-            <div
-              className="absolute flex"
-              style={{ top: 744, left: 44, right: 44, gap: 20 }}
+        <div className="absolute left-[-1px] overflow-clip size-[80px] top-[184px]">
+          <div className="absolute bottom-1/4 left-[33.33%] right-[35.83%] top-1/4">
+            <svg
+              className="absolute block size-full"
+              fill="none"
+              preserveAspectRatio="none"
+              viewBox="0 0 24.6667 40"
             >
-              {/* Column 1 */}
-              <div className="flex flex-col" style={{ flex: "1 1 0", gap: 0 }}>
-                {col1.map((item) => (
-                  <Tile key={item.title} item={item} onClick={setLightbox} />
-                ))}
-              </div>
-
-              {/* Column 2 */}
-              <div className="flex flex-col" style={{ flex: "1 1 0", gap: 0 }}>
-                {col2.map((item) => (
-                  <Tile key={item.title} item={item} onClick={setLightbox} />
-                ))}
-              </div>
-
-              {/* Column 3 */}
-              <div className="flex flex-col" style={{ flex: "1 1 0", gap: 0 }}>
-                {col3.map((item) => (
-                  <Tile key={item.title} item={item} onClick={setLightbox} />
-                ))}
-              </div>
-            </div>
-
-            {/* Invisible nav + back links */}
-            <NavigationOverlay showBack backTo="/" />
+              <path d={svgPaths.p70c62c0} fill="#1D1B20" />
+            </svg>
           </div>
         </div>
+
+        <div
+          className="absolute flex"
+          style={{ top: 744, left: 44, right: 44, gap: 20 }}
+        >
+          <div className="flex flex-col" style={{ flex: "1 1 0", gap: 0 }}>
+            {col1.map((item) => (
+              <Tile key={item.url} item={item} onClick={setLightbox} />
+            ))}
+          </div>
+
+          <div className="flex flex-col" style={{ flex: "1 1 0", gap: 0 }}>
+            {col2.map((item) => (
+              <Tile key={item.url} item={item} onClick={setLightbox} />
+            ))}
+          </div>
+
+          <div className="flex flex-col" style={{ flex: "1 1 0", gap: 0 }}>
+            {col3.map((item) => (
+              <Tile key={item.url} item={item} onClick={setLightbox} />
+            ))}
+          </div>
+        </div>
+
+        <NavigationOverlay showBack backTo="/" />
       </div>
 
-      {/* Lightbox */}
       {lightbox && <Lightbox item={lightbox} onClose={() => setLightbox(null)} />}
     </>
   );

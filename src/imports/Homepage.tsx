@@ -61,11 +61,11 @@ function HeroCard() {
       <ProjectsAnsStuff />
       <ViewProjectsbutton />
       <AboutmeButton />
-      <p className="absolute font-['Clash_Display:Bold',sans-serif] leading-[normal] left-[113px] not-italic text-[#f2d6cc] text-[64px] top-[331px] whitespace-nowrap">
+      <p className="absolute font-[var(--font-heading)] font-bold leading-[normal] left-[113px] not-italic text-[#f2d6cc] text-[64px] top-[331px] whitespace-nowrap">
         I design experiences.
         <br aria-hidden="true" />I animate stories.
       </p>
-      <p className="absolute font-['Clash_Display:Bold',sans-serif] leading-[normal] left-[111px] not-italic text-[#d4896a] text-[96px] top-[489px] whitespace-nowrap">I build brands.</p>
+      <p className="absolute font-[var(--font-heading)] font-bold leading-[normal] left-[111px] not-italic text-[#d4896a] text-[96px] top-[489px] whitespace-nowrap">I build brands.</p>
       <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[111px] text-[#f2d6cc] text-[36px] top-[263px] whitespace-nowrap">DESIGNER · ILLUSTRATOR · 3D ANIMATOR</p>
     </div>
   );
@@ -245,7 +245,7 @@ function Homepage1() {
 
 export default function Homepage() {
   return (
-    <div className="bg-[#120a08] relative size-full" data-name="Homepage-">
+    <div className="bg-[#120a08] relative w-[1280px] h-full" data-name="Homepage-">
       <div className="absolute h-[1024px] left-0 top-0 w-[1280px]" data-name="hero">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgHero} />
       </div>
