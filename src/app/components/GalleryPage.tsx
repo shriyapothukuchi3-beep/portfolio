@@ -72,16 +72,18 @@ const col3: GalleryItem[] = [
 function Header() {
   return (
     <div className="absolute contents left-[-17px] top-[-361px]" data-name="header">
+      {/* Solid pink fill so the navbar area is always covered */}
+      <div className="absolute bg-[#D4896A] left-0 top-0 w-[1280px] h-[850px]" />
       <div className="absolute h-[1211px] left-[-17px] top-[-361px] w-[1297px]">
         <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1297 1211">
           <path d={svgPaths.p9fb7900} fill="#D4896A" />
         </svg>
       </div>
       <div className="absolute bg-[rgba(18,10,8,0.28)] h-[125px] left-0 opacity-48 top-0 w-[1280px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[21px] text-[#f2d6cc] text-[32px] top-[48px] w-[362px]">SHRIYA POTHUKUCHI</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[792px] text-[#f2d6cc] text-[32px] top-[41px] w-[104px]">WORK</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[922px] text-[#f2d6cc] text-[32px] top-[41px] w-[152px]">GALLERY</p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] left-[1098px] text-[#f2d6cc] text-[32px] top-[41px] w-[118px]">ABOUT</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[21px] text-[#f2d6cc] text-[32px] top-[48px] w-[362px]">SHRIYA POTHUKUCHI</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[792px] text-[#f2d6cc] text-[32px] top-[41px] w-[104px]">WORK</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[922px] text-[#f2d6cc] text-[32px] top-[41px] w-[152px]">GALLERY</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[1098px] text-[#f2d6cc] text-[32px] top-[41px] w-[118px]">ABOUT</p>
     </div>
   );
 }
@@ -95,7 +97,7 @@ function Bar() {
         </svg>
       </div>
       <div className="absolute bg-[#120a08] h-[163px] left-[63px] opacity-88 rounded-[10px] top-[444px] w-[524px]" />
-      <div className="absolute font-[var(--font-heading)] h-[108px] leading-[0] left-[107px] not-italic text-[#d4896a] text-[64px] top-[477px] w-[350px]">
+      <div className="absolute font-['Clash_Display',sans-serif] h-[108px] leading-[0] left-[107px] not-italic text-[#d4896a] text-[64px] top-[477px] w-[350px]">
         <p className="leading-[normal] mb-0">Gallery</p>
       </div>
     </div>
@@ -106,14 +108,14 @@ function Heading() {
   return (
     <div className="absolute contents leading-[normal] left-[89px] top-[185px]" data-name="heading">
       {/* "My " in dark (punches through the terracotta art) */}
-      <p className="absolute font-[var(--font-heading)] left-[89px] not-italic text-[#120a08] text-[64px] top-[185px] whitespace-nowrap">
+      <p className="absolute font-['Clash_Display',sans-serif] left-[89px] not-italic text-[#120a08] text-[64px] top-[185px] whitespace-nowrap">
         My works
       </p>
       {/* "works" in cream overlaid on top to create two-tone effect */}
-      <p className="absolute font-[var(--font-heading)] left-[89px] not-italic text-[#f2d6cc] text-[64px] top-[185px] whitespace-nowrap">
+      <p className="absolute font-['Clash_Display',sans-serif] left-[89px] not-italic text-[#f2d6cc] text-[64px] top-[185px] whitespace-nowrap">
         {"My\u00A0"}
       </p>
-      <p className="absolute font-['Plus_Jakarta_Sans:Medium',sans-serif] font-medium left-[133px] text-[#f2d6cc] text-[24px] top-[264px] w-[1100px]">
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium left-[133px] text-[#f2d6cc] text-[24px] top-[264px] w-[1100px]">
         A curated look across all creative work — illustration, design, animation, and beyond.
       </p>
     </div>
@@ -147,14 +149,14 @@ function Tile({ item, onClick }: TileProps) {
         style={{ background: "linear-gradient(to top, rgba(18,10,8,0.88) 0%, rgba(18,10,8,0.3) 50%, transparent 100%)", padding: "20px 22px" }}
       >
         <p
-          className="font-[var(--font-heading)] not-italic leading-[normal] text-[#d4896a]"
+          className="font-['Clash_Display',sans-serif] not-italic leading-[normal] text-[#d4896a]"
           style={{ fontSize: 20 }}
         >
           {item.title}
         </p>
         <div className="mt-[8px]">
           <span
-            className="inline-block bg-[rgba(122,92,84,0.85)] rounded-[6px] font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal text-[#f2d6cc] leading-[normal]"
+            className="inline-block bg-[rgba(122,92,84,0.85)] rounded-[6px] font-['Plus_Jakarta_Sans',sans-serif] font-normal text-[#f2d6cc] leading-[normal]"
             style={{ fontSize: 13, padding: "4px 12px" }}
           >
             {item.category}
@@ -204,13 +206,13 @@ function Lightbox({ item, onClose }: LightboxProps) {
         <div className="mt-[18px] w-full flex items-center justify-between" style={{ padding: "0 4px" }}>
           <div>
             <p
-              className="font-[var(--font-heading)] not-italic leading-[normal] text-[#d4896a]"
+              className="font-['Clash_Display',sans-serif] not-italic leading-[normal] text-[#d4896a]"
               style={{ fontSize: 24 }}
             >
               {item.title}
             </p>
             <p
-              className="font-['Plus_Jakarta_Sans:Regular',sans-serif] font-normal leading-[normal] text-[#f2d6cc] mt-[5px]"
+              className="font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] text-[#f2d6cc] mt-[5px]"
               style={{ fontSize: 16 }}
             >
               {item.category}
