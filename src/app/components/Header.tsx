@@ -24,7 +24,7 @@ export function Header() {
       <nav className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="text-sm font-medium tracking-wider text-[#F5F5F5] hover:text-[#C4A9F0] transition-colors">
+          <Link to="/" className="text-xs sm:text-sm font-medium tracking-normal sm:tracking-wider text-[#F5F5F5] hover:text-[#C4A9F0] transition-colors truncate max-w-[160px] sm:max-w-none">
             SHRIYA POTHUKUCHI
           </Link>
 

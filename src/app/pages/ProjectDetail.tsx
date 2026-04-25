@@ -109,7 +109,7 @@ export function ProjectDetail() {
                 className="w-8 h-[2px] mb-6"
                 style={{ backgroundColor: accentColor }}
               />
-              <h1 className="text-4xl md:text-5xl font-medium text-[#F5F5F5] mb-4">
+              <h1 className="text-4xl md:text-5xl font-medium text-[#F5F5F5] mb-4 break-words">
                 {project.title}
               </h1>
               <p className="text-lg text-[#999]">{project.description}</p>

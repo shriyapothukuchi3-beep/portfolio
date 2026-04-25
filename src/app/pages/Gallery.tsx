@@ -73,20 +73,20 @@ export function Gallery() {
               initial={{ scale: 0.9, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.9, opacity: 0 }}
-              className="relative max-w-5xl max-h-[90vh] w-full"
+              className="relative max-w-5xl w-full overflow-hidden"
               onClick={(e) => e.stopPropagation()}
             >
               <button
                 onClick={() => setSelectedImage(null)}
-                className="absolute -top-12 right-0 text-[#F5F5F5] hover:text-[#6C3FC8] transition-colors"
+                className="absolute top-3 right-3 z-10 p-1.5 bg-[#0F0F13]/70 text-[#F5F5F5] hover:text-[#6C3FC8] transition-colors"
               >
-                <X size={24} />
+                <X size={22} />
               </button>
 
               <img
                 src={selectedImage}
                 alt="Selected gallery artwork"
-                className="w-full h-full object-contain"
+                className="w-full max-h-[85vh] object-contain"
               />
             </motion.div>
           </motion.div>

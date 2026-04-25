@@ -8,7 +8,7 @@ import { Gallery } from './pages/Gallery';
 
 function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-[#0F0F13]">
       <Header />
       <main>{children}</main>
     </div>
@@ -62,9 +62,9 @@ export const router = createBrowserRouter([
       <Layout>
         <div className="min-h-screen flex items-center justify-center">
           <div className="text-center">
-            <h1 className="text-4xl mb-4">404 - Page Not Found</h1>
-            <p className="text-gray-600 mb-6">The page you're looking for doesn't exist.</p>
-            <a href="/" className="text-gray-900 hover:underline">
+            <h1 className="text-4xl mb-4 text-[#F5F5F5] font-medium">404 - Page Not Found</h1>
+            <p className="text-[#999] mb-6">The page you're looking for doesn't exist.</p>
+            <a href="/" className="text-[#6C3FC8] hover:text-[#C4A9F0] transition-colors text-sm">
               Go back home
             </a>
           </div>

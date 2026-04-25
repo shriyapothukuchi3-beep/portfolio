@@ -53,7 +53,7 @@ export function Home() {
             </div>
 
             {/* Stats */}
-            <div className="flex items-center gap-6 pt-8 text-sm">
+            <div className="flex flex-wrap items-center gap-x-6 gap-y-2 pt-8 text-sm">
               <div className="text-[#999]">
                 <span className="text-[#F5F5F5] font-medium">4+</span> projects
               </div>

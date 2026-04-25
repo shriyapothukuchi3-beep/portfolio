@@ -100,7 +100,7 @@ export function About() {
             className="lg:col-span-2 space-y-6 text-[#999]"
           >
             <p className="text-base leading-relaxed">
-              I'm Shriya Pothukuchi, I'm Shriya — a UI/UX and graphic designer with a passion for design that feels both intentional and alive. My work spans brand identity, interaction design, digital illustration, and 3D animation, and I bring the same care to every medium: making things that look beautiful and actually work for people.
+              I'm Shriya Pothukuchi — a UI/UX and graphic designer with a passion for design that feels both intentional and alive. My work spans brand identity, interaction design, digital illustration, and 3D animation, and I bring the same care to every medium: making things that look beautiful and actually work for people.
             </p>
 
             <p className="text-base leading-relaxed">
@@ -159,7 +159,7 @@ Whether I'm building a sustainable fashion app, crafting a brand identity inspir
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.4 }}
-          className="bg-[#1A1A2A] border border-[#2a2a35] p-12 text-center"
+          className="bg-[#1A1A2A] border border-[#2a2a35] p-8 md:p-12 text-center"
         >
           <h2 className="text-2xl font-medium text-[#F5F5F5] mb-4">Let's Work Together</h2>
           <p className="text-base text-[#999] mb-8 max-w-xl mx-auto">
