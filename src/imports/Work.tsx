@@ -12,7 +12,7 @@ function Aniamtion() {
         </svg>
       </div>
       <div className="absolute bg-[#120a08] h-[385px] left-[65px] opacity-88 rounded-[10px] top-[1657px] w-[747px]" />
-      <p className="absolute font-['Clash_Display',sans-serif] leading-[normal] left-[96px] not-italic text-[#d4896a] text-[64px] top-[1687px] whitespace-nowrap">Animation</p>
+      <p className="absolute font-['Clash_Display',sans-serif] font-bold leading-[normal] left-[96px] not-italic text-[#d4896a] text-[64px] top-[1687px] whitespace-nowrap">Animation</p>
       <div className="absolute h-[256px] left-[87px] top-[1780px] w-[703px]" data-name="sarath-p-raj-p8GmCEgSmmo-unsplash 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute h-[384.77%] left-[-0.09%] max-w-none top-[-76.55%] w-[100.06%]" src={imgSarathPRajP8GmCEgSmmoUnsplash1} />
@@ -40,7 +40,7 @@ function Design() {
         </svg>
       </div>
       <div className="absolute bg-[#120a08] h-[385px] left-[490px] opacity-88 rounded-[10px] top-[1071px] w-[747px]" />
-      <p className="absolute font-['Clash_Display',sans-serif] leading-[normal] left-[904px] not-italic text-[#d4896a] text-[64px] top-[1110px] whitespace-nowrap">{` Design`}</p>
+      <p className="absolute font-['Clash_Display',sans-serif] font-bold leading-[normal] left-[904px] not-italic text-[#d4896a] text-[64px] top-[1110px] whitespace-nowrap">{` Design`}</p>
       <div className="absolute h-[256px] left-[530px] top-[1200px] w-[667px]" data-name="2h-media-NmSPbe0bDtc-unsplash 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute h-[200%] left-[-0.03%] max-w-none top-0 w-[100.07%]" src={img2HMediaNmSPbe0BDtcUnsplash1} />
@@ -80,7 +80,7 @@ function Heading() {
   return (
     <div className="absolute contents leading-[normal] left-[21px] top-[185px]" data-name="heading">
       <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium left-[65px] text-[#f2d6cc] text-[24px] top-[264px] w-[1133px]">A collection of UX/UI design, illustration, and animation projects exploring thoughtful interaction, visual storytelling, and motion.</p>
-      <p className="absolute font-['Clash_Display',sans-serif] left-[21px] not-italic text-[#120a08] text-[64px] top-[185px] whitespace-nowrap">My works</p>
+      <p className="absolute font-['Clash_Display',sans-serif] font-bold left-[21px] not-italic text-[#120a08] text-[64px] top-[185px] whitespace-nowrap">My works</p>
     </div>
   );
 }
@@ -89,7 +89,7 @@ function UxUi() {
   return (
     <div className="absolute contents left-[99px] top-[485px]" data-name="ux/ui">
       <div className="absolute bg-[#120a08] h-[385px] left-[99px] opacity-88 rounded-[10px] top-[485px] w-[747px]" />
-      <p className="absolute font-['Clash_Display',sans-serif] leading-[normal] left-[133px] not-italic text-[#d4896a] text-[64px] top-[518px] whitespace-nowrap">UX/UI Design</p>
+      <p className="absolute font-['Clash_Display',sans-serif] font-bold leading-[normal] left-[133px] not-italic text-[#d4896a] text-[64px] top-[518px] whitespace-nowrap">UX/UI Design</p>
       <div className="absolute h-[256px] left-[141px] top-[614px] w-[663px]" data-name="amelie-mourichon-sv8oOQaUb-o-unsplash 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute h-[194.24%] left-0 max-w-none top-[-50.44%] w-full" src={imgAmelieMourichonSv8OOQaUbOUnsplash1} />

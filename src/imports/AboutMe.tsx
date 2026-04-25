@@ -28,7 +28,7 @@ function Hero() {
       </div>
       <div className="absolute bg-[#120a08] h-[171px] left-[38px] opacity-88 top-[828px] w-[940px]" />
       <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium leading-[normal] left-[126px] text-[#f2d6cc] text-[20px] top-[913px] w-[842px]">Passionate designer and animator creating meaningful, culturally inspired experiences.</p>
-      <p className="absolute font-['Clash_Display',sans-serif] leading-[normal] left-[64px] not-italic text-[#d4896a] text-[64px] top-[828px] whitespace-nowrap">About me</p>
+      <p className="absolute font-['Clash_Display',sans-serif] font-bold leading-[normal] left-[64px] not-italic text-[#d4896a] text-[64px] top-[828px] whitespace-nowrap">About me</p>
     </div>
   );
 }

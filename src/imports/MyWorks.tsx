@@ -13,7 +13,7 @@ function Bar() {
         </svg>
       </div>
       <div className="absolute bg-[#120a08] h-[163px] left-[63px] opacity-88 rounded-[10px] top-[444px] w-[524px]" />
-      <p className="absolute font-['Clash_Display',sans-serif] leading-[normal] left-[107px] not-italic text-[#d4896a] text-[64px] top-[477px] whitespace-nowrap">UX/UI Design</p>
+      <p className="absolute font-['Clash_Display',sans-serif] font-bold leading-[normal] left-[107px] not-italic text-[#d4896a] text-[64px] top-[477px] whitespace-nowrap">UX/UI Design</p>
     </div>
   );
 }
@@ -39,7 +39,7 @@ function Heading() {
   return (
     <div className="absolute contents leading-[normal] left-[89px] top-[185px]" data-name="heading">
       <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium left-[133px] text-[#f2d6cc] text-[24px] top-[264px] w-[1133px]">A collection of UX/UI design, illustration, and animation projects exploring thoughtful interaction, visual storytelling, and motion.</p>
-      <p className="absolute font-['Clash_Display',sans-serif] left-[89px] not-italic text-[#d4896a] text-[64px] top-[185px] whitespace-nowrap">My works</p>
+      <p className="absolute font-['Clash_Display',sans-serif] font-bold left-[89px] not-italic text-[#d4896a] text-[64px] top-[185px] whitespace-nowrap">My works</p>
       <p className="absolute font-['Clash_Display',sans-serif] left-[89px] not-italic text-[#120a08] text-[64px] top-[185px] whitespace-nowrap">{`My `}</p>
     </div>
   );

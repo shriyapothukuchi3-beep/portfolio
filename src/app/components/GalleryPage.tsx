@@ -97,7 +97,7 @@ function Bar() {
         </svg>
       </div>
       <div className="absolute bg-[#120a08] h-[163px] left-[63px] opacity-88 rounded-[10px] top-[444px] w-[524px]" />
-      <div className="absolute font-['Clash_Display',sans-serif] h-[108px] leading-[0] left-[107px] not-italic text-[#d4896a] text-[64px] top-[477px] w-[350px]">
+      <div className="absolute font-['Clash_Display',sans-serif] font-bold h-[108px] leading-[0] left-[107px] not-italic text-[#d4896a] text-[64px] top-[477px] w-[350px]">
         <p className="leading-[normal] mb-0">Gallery</p>
       </div>
     </div>

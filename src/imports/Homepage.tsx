@@ -18,7 +18,7 @@ function Header() {
 
 function ProjectsAnsStuff() {
   return (
-    <div className="absolute contents font-['Plus_Jakarta_Sans',sans-serif] font-normal left-[108px] text-[#f2d6cc] text-[32px] top-[667px]" data-name="projects ans stuff">
+    <div className="absolute contents font-['Plus_Jakarta_Sans',sans-serif] font-light left-[108px] text-[#f2d6cc] text-[32px] top-[667px]" data-name="projects ans stuff">
       <div className="absolute h-[38px] leading-[0] left-[111px] top-[741px] w-[206px]">
         <p className="leading-[normal] mb-0">3 disciplines</p>
         <p className="leading-[normal]">&nbsp;</p>
@@ -74,7 +74,7 @@ function HeroCard() {
 function SelectedWorks() {
   return (
     <div className="absolute contents left-0 top-[1084px]" data-name="selected works">
-      <p className="absolute font-['Clash_Display',sans-serif] leading-[normal] left-[39px] not-italic text-[#f2d6cc] text-[64px] top-[1084px] whitespace-nowrap">Selected works</p>
+      <p className="absolute font-['Clash_Display',sans-serif] font-bold leading-[normal] left-[39px] not-italic text-[#f2d6cc] text-[64px] top-[1084px] whitespace-nowrap">Selected works</p>
       <div className="absolute h-[662px] left-0 top-[2080px] w-[630px]" data-name="rentique">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRentique} />
       </div>
