@@ -47,54 +47,46 @@ function Hero1() {
 
 function DesignSystem() {
   return (
-    <div className="absolute contents left-[88px] top-[2204px]" data-name="design system">
-      <div className="absolute bg-[rgba(122,92,84,0.82)] h-[58px] left-[88px] rounded-[10px] top-[2204px] w-[233px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal h-[28px] leading-[normal] left-[108px] text-[#f2d6cc] text-[24px] top-[2217px] w-[184px]">Design Systems</p>
+    <div className="flex h-[58px] items-center justify-center rounded-[10px] bg-[rgba(122,92,84,0.82)] px-6" data-name="design system">
+      <p className="font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] text-[#f2d6cc] text-[24px] whitespace-nowrap">Design Systems</p>
     </div>
   );
 }
 
 function MotionGraphic() {
   return (
-    <div className="absolute contents left-[343px] top-[2204px]" data-name="motion graphic">
-      <div className="absolute bg-[rgba(122,92,84,0.82)] h-[58px] left-[343px] rounded-[10px] top-[2204px] w-[233px]" />
-      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal h-[28px] leading-[normal] left-[360px] text-[#f2d6cc] text-[24px] top-[2217px] w-[198px]">Motion Graphics</p>
+    <div className="flex h-[58px] items-center justify-center rounded-[10px] bg-[rgba(122,92,84,0.82)] px-6" data-name="motion graphic">
+      <p className="font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] text-[#f2d6cc] text-[24px] whitespace-nowrap">Motion Graphics</p>
     </div>
   );
 }
 
 function Component3DAnimation() {
   return (
-    <div className="absolute contents left-[598px] top-[2204px]" data-name="3d animation">
-      <div className="absolute bg-[rgba(122,92,84,0.82)] h-[58px] left-[598px] rounded-[10px] top-[2204px] w-[233px]" />
-      <div className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal h-[28px] leading-[0] left-[640px] text-[#f2d6cc] text-[24px] top-[2219px] w-[164px]">
-        <p className="leading-[normal] mb-0">3D Animation</p>
-        <p className="leading-[normal]">&nbsp;</p>
-      </div>
+    <div className="flex h-[58px] items-center justify-center rounded-[10px] bg-[rgba(122,92,84,0.82)] px-6" data-name="3d animation">
+      <p className="font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] text-[#f2d6cc] text-[24px] whitespace-nowrap">3D Animation</p>
     </div>
   );
 }
 
 function AiInDesign() {
   return (
-    <div className="absolute contents left-[853px] top-[2202px]" data-name="ai in design">
-      <div className="absolute bg-[rgba(122,92,84,0.82)] h-[58px] left-[853px] rounded-[10px] top-[2202px] w-[233px]" />
-      <div className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal h-[28px] leading-[0] left-[887px] text-[#f2d6cc] text-[24px] top-[2217px] w-[164px]">
-        <p className="leading-[normal] mb-0">AI in Design</p>
-        <p className="leading-[normal]">&nbsp;</p>
-      </div>
+    <div className="flex h-[58px] items-center justify-center rounded-[10px] bg-[rgba(122,92,84,0.82)] px-6" data-name="ai in design">
+      <p className="font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] text-[#f2d6cc] text-[24px] whitespace-nowrap">AI in Design</p>
     </div>
   );
 }
 
 function CureentlyExploring() {
   return (
-    <div className="absolute contents left-[79px] top-[2144px]" data-name="cureently exploring">
-      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal h-[28px] leading-[normal] left-[79px] text-[#120a08] text-[24px] top-[2144px] w-[227px]">Currently exploring</p>
-      <DesignSystem />
-      <MotionGraphic />
-      <Component3DAnimation />
-      <AiInDesign />
+    <div className="absolute left-[79px] top-[2144px] w-[1040px]" data-name="cureently exploring">
+      <p className="font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] text-[#120a08] text-[32px]">Currently exploring</p>
+      <div className="mt-6 flex flex-wrap gap-5">
+        <DesignSystem />
+        <MotionGraphic />
+        <Component3DAnimation />
+        <AiInDesign />
+      </div>
     </div>
   );
 }
@@ -106,7 +98,7 @@ function Mail() {
       <a className="absolute block cursor-pointer left-[49px] overflow-clip size-[48px] top-[1531px]" data-name="mail" href="mailto: shriyapothukuchi3@gmail.com" target="_blank">
         <div className="absolute inset-[16.67%_8.33%]" data-name="icon">
           <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 40 32">
-            <path d={svgPaths.p5852c00} fill="var(--fill-0, #1D1B20)" id="icon" />
+            <path d={svgPaths.p5852c00} fill="var(--fill-0, white)" id="icon" />
           </svg>
         </div>
       </a>
@@ -191,7 +183,7 @@ function DesignTools() {
   return (
     <div className="absolute contents left-[64px] top-[2531px]" data-name="design tools">
       <div className="absolute bg-[rgba(212,137,106,0.44)] h-[327px] left-[64px] rounded-[10px] top-[2531px] w-[519px]" />
-      <p className="absolute font-['Clash_Display',sans-serif] h-[60px] leading-[normal] left-[84px] not-italic text-[#d4896a] text-[48px] top-[2547px] w-[332px]">Design Tools</p>
+      <p className="absolute font-['Clash_Display',sans-serif] font-bold h-[60px] leading-[normal] left-[84px] not-italic text-[#d4896a] text-[48px] top-[2547px] w-[332px]">Design Tools</p>
       <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[42px] leading-[normal] left-[93px] text-[#f2d6cc] text-[24px] top-[2625px] w-[109px]">{` · Figma `}</p>
       <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[42px] leading-[normal] left-[90px] text-[#f2d6cc] text-[24px] top-[2666px] w-[233px]">{` · Adobe Photoshop`}</p>
       <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[42px] leading-[normal] left-[90px] text-[#f2d6cc] text-[24px] top-[2708px] w-[245px]">{` · Adobe After Effects`}</p>
@@ -205,7 +197,7 @@ function AniamtionAnd3D() {
   return (
     <div className="absolute contents left-[676px] top-[2531px]" data-name="aniamtion and 3d">
       <div className="absolute bg-[rgba(212,137,106,0.44)] h-[330px] left-[676px] rounded-[10px] top-[2531px] w-[555px]" />
-      <p className="absolute font-['Clash_Display',sans-serif] h-[70px] leading-[normal] left-[713px] not-italic text-[#d4896a] text-[48px] top-[2541px] w-[518px]">{`Animation & 3D`}</p>
+      <p className="absolute font-['Clash_Display',sans-serif] font-bold h-[70px] leading-[normal] left-[713px] not-italic text-[#d4896a] text-[48px] top-[2541px] w-[518px]">{`Animation & 3D`}</p>
       <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[35px] leading-[normal] left-[733px] text-[#f2d6cc] text-[24px] top-[2621px] w-[116px]">· Maya</p>
       <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[35px] leading-[normal] left-[733px] text-[#f2d6cc] text-[24px] top-[2666px] w-[116px]">· Unity</p>
       <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[35px] leading-[normal] left-[733px] text-[#f2d6cc] text-[24px] top-[2708px] w-[378px]">{`· 3D Modelling & Rigging`}</p>
@@ -219,7 +211,7 @@ function Deve() {
   return (
     <div className="absolute contents left-[64px] top-[2938px]" data-name="deve">
       <div className="absolute bg-[rgba(212,137,106,0.44)] h-[280px] left-[64px] rounded-[10px] top-[2938px] w-[519px]" />
-      <p className="absolute font-['Clash_Display',sans-serif] h-[60px] leading-[normal] left-[84px] not-italic text-[#d4896a] text-[48px] top-[2950px] w-[368px]">Development</p>
+      <p className="absolute font-['Clash_Display',sans-serif] font-bold h-[60px] leading-[normal] left-[84px] not-italic text-[#d4896a] text-[48px] top-[2950px] w-[368px]">Development</p>
       <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[30px] leading-[normal] left-[93px] text-[#f2d6cc] text-[24px] top-[3072px] w-[87px]">· HTML</p>
       <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[30px] leading-[normal] left-[94px] text-[#f2d6cc] text-[24px] top-[3111px] w-[87px]">· CSS</p>
       <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[30px] leading-[normal] left-[93px] text-[#f2d6cc] text-[24px] top-[3153px] w-[116px]">· Shopify</p>
@@ -232,7 +224,7 @@ function Other() {
   return (
     <div className="absolute contents left-[676px] top-[2938px]" data-name="other">
       <div className="absolute bg-[rgba(212,137,106,0.44)] h-[323px] left-[676px] rounded-[10px] top-[2938px] w-[555px]" />
-      <p className="absolute font-['Clash_Display',sans-serif] h-[60px] leading-[normal] left-[713px] not-italic text-[#d4896a] text-[48px] top-[2950px] w-[157px]">Other</p>
+      <p className="absolute font-['Clash_Display',sans-serif] font-bold h-[60px] leading-[normal] left-[713px] not-italic text-[#d4896a] text-[48px] top-[2950px] w-[157px]">Other</p>
       <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[30px] leading-[normal] left-[733px] text-[#f2d6cc] text-[24px] top-[3027px] w-[182px]">· User Research</p>
       <div className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-medium h-[30px] leading-[0] left-[733px] text-[#f2d6cc] text-[24px] top-[3069px] w-[345px]">
         <p className="leading-[normal] mb-0">{`· Wireframing & Prototyping`}</p>
@@ -265,7 +257,7 @@ function Skills() {
 function SkillsAndTools() {
   return (
     <div className="absolute contents left-[64px] top-[2382px]" data-name="skills and tools">
-      <p className="absolute font-['Clash_Display',sans-serif] leading-[normal] left-[76px] not-italic text-[#f2d6cc] text-[64px] top-[2382px] whitespace-nowrap">Skills and Tools</p>
+      <p className="absolute font-['Clash_Display',sans-serif] font-bold leading-[normal] left-[76px] not-italic text-[#f2d6cc] text-[64px] top-[2382px] whitespace-nowrap">Skills and Tools</p>
       <Skills />
     </div>
   );
