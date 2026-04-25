@@ -3,7 +3,7 @@ node_modules/
 *.log
 .cache/
 .temp/
-
+README.md
 # build output
 dist/
 build/
@@ -31,3 +31,6 @@ pnpm-debug.log*
 # misc
 *.tsbuildinfo
 coverage/
+
+# Claude Code internal files
+.claude/

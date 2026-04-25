@@ -1,7 +1,7 @@
 
-  # Portfolio website
+  # Add Animation Page
 
-  This is a code bundle for Portfolio website. The original project is available at https://www.figma.com/design/duHozAoYnGBTre73xDxuSd/Portfolio-website.
+  This is a code bundle for Add Animation Page. The original project is available at https://www.figma.com/design/SN4uvoIpngYm43jzeWtFAw/Add-Animation-Page.
 
   ## Running the code
 
