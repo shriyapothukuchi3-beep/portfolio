@@ -57,7 +57,10 @@ export default function ResponsiveCanvasPage({
   }, [location.pathname, scale]);
 
   return (
-    <div className="w-full min-h-screen overflow-x-hidden overflow-y-auto bg-[#120a08]">
+    <div
+      className="min-h-screen overflow-x-hidden overflow-y-auto bg-[#120a08]"
+      style={{ width: "100vw", minWidth: "100vw" }}
+    >
       <div
         className="mx-auto relative"
         style={{
