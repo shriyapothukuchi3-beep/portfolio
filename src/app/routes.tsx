@@ -40,6 +40,9 @@ function HomepagePage() {
         <NavigationOverlay />
         <TransparentLink to="/work" style={{ left: 480, top: 730, width: 242, height: 99 }} />
         <TransparentLink to="/about" style={{ left: 920, top: 728, width: 242, height: 99 }} />
+        <TransparentLink to="/work/uxui/coffee" style={{ left: 0, top: 1179, width: 1279, height: 868 }} />
+        <TransparentLink to="/work/uxui/rentique" style={{ left: 0, top: 2080, width: 630, height: 662 }} />
+        <TransparentLink to="/work/uxui/lune" style={{ left: 649, top: 2080, width: 630, height: 662 }} />
         <TransparentLink to="/work/design" style={{ left: 34, top: 2800, width: 581, height: 280 }} />
         <TransparentLink to="/work/animation" style={{ left: 664, top: 2799, width: 581, height: 280 }} />
       </div>
