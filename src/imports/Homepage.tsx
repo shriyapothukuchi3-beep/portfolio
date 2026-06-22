@@ -1,7 +1,7 @@
 const imgHero = "/images/hero-homepage.png";
-const imgRentique = "/images/rentique-homepage.png";
+const imgPathway = "/images/Pathway_hero.png";
 const imgLune = "/images/lune-homepage.png";
-const imgCoffee = "/images/brewcoffee-homepage.png";
+const imgGrabNGo = "/images/GrabNGo_hero.png";
 const imgProfilePic = "/images/aboutus.jpeg";
 
 function Header() {
@@ -75,14 +75,14 @@ function SelectedWorks() {
   return (
     <div className="absolute contents left-0 top-[1084px]" data-name="selected works">
       <p className="absolute font-['Clash_Display',sans-serif] font-bold leading-[normal] left-[39px] not-italic text-[#f2d6cc] text-[64px] top-[1084px] whitespace-nowrap">Selected works</p>
-      <div className="absolute h-[662px] left-0 top-[2080px] w-[630px]" data-name="rentique">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRentique} />
+      <div className="absolute h-[662px] left-0 top-[2080px] w-[630px]" data-name="pathway">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgPathway} />
       </div>
       <div className="absolute h-[662px] left-[649px] top-[2080px] w-[630px]" data-name="lune">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgLune} />
       </div>
-      <div className="absolute h-[868px] left-0 top-[1179px] w-[1279px]" data-name="coffee">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgCoffee} />
+      <div className="absolute h-[868px] left-0 top-[1179px] w-[1279px]" data-name="grab n go">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGrabNGo} />
       </div>
     </div>
   );

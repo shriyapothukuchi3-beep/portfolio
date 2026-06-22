@@ -3,6 +3,8 @@ const imgScreenshot20260403At71217Pm2 = "/images/lune-homepage.png";
 const imgScreenshot20260403At72837Pm2 = "/images/brewcoffee-homepage.png";
 const imgScreenshot20260403At65906Pm1 = "/images/rentique-homepage.png";
 const imgScreenshot20260403At111400Pm2 = "/images/meetup-uiux.png";
+const imgPathwayHero = "/images/Pathway_hero.png";
+const imgGrabNGoHero = "/images/GrabNGo_hero.png";
 
 function Bar() {
   return (
@@ -147,6 +149,52 @@ function Projects() {
       <BrewAndBlend />
       <Rentique />
       <Meetup />
+      <Pathway />
+      <GrabNGo />
+    </div>
+  );
+}
+
+function Pathway() {
+  return (
+    <div className="absolute contents left-[44px] top-[2436px]" data-name="pathway">
+      <div className="absolute bg-[rgba(212,137,106,0.44)] h-[236px] left-[44px] rounded-[10px] top-[2987px] w-[580px]" />
+      <div className="absolute h-[580px] left-[45px] top-[2436px] w-[579px]" data-name="Pathway hero">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgPathwayHero} />
+      </div>
+      <p className="absolute font-['Clash_Display',sans-serif] font-semibold leading-[normal] left-[58px] not-italic text-[#d4896a] text-[32px] top-[3020px] w-[539px]">Pathway — Smart Navigation Aid</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[58px] text-[#f2d6cc] text-[20px] top-[3112px] w-[557px]">A dual-component mobility system that helps blind users locate door edges and handles without disrupting their gait or environmental awareness.</p>
+      <div className="absolute left-[543px] overflow-clip size-[60px] top-[3010px]" data-name="Arrow right">
+        <div className="absolute inset-[20.83%]" data-name="Icon">
+          <div className="absolute inset-[-3.57%]">
+            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 37.5 37.5">
+              <path d={svgPaths.pa04c200} id="Icon" stroke="var(--stroke-0, white)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function GrabNGo() {
+  return (
+    <div className="absolute contents left-[656px] top-[2436px]" data-name="grab n go">
+      <div className="absolute bg-[rgba(212,137,106,0.44)] h-[236px] left-[656px] rounded-[10px] top-[2987px] w-[580px]" />
+      <div className="absolute h-[580px] left-[656px] top-[2436px] w-[579px]" data-name="Grab N Go hero">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGrabNGoHero} />
+      </div>
+      <p className="absolute font-['Clash_Display',sans-serif] font-semibold leading-[normal] left-[670px] not-italic text-[#d4896a] text-[32px] top-[3020px] w-[539px]">Grab N Go — Food Insecurity on Campus</p>
+      <p className="absolute font-['Plus_Jakarta_Sans',sans-serif] font-normal leading-[normal] left-[670px] text-[#f2d6cc] text-[20px] top-[3112px] w-[557px]">A campus food-access service that makes meal pickup feel fast, discreet, and normal through smart vending and a companion app.</p>
+      <div className="absolute left-[1164px] overflow-clip size-[60px] top-[3010px]" data-name="Arrow right">
+        <div className="absolute inset-[20.83%]" data-name="Icon">
+          <div className="absolute inset-[-3.57%]">
+            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 37.5 37.5">
+              <path d={svgPaths.pa04c200} id="Icon" stroke="var(--stroke-0, white)" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" />
+            </svg>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
